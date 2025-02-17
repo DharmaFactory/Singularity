@@ -13,3 +13,6 @@ This is not to suggest being destructive but rather to progress our understandin
 How I learned to stop worrying and love the singularity. The only reason we all aren't already hacked to a technological nothingness is by the good will of those who can.
 
 Suggested use of this area, playing CTF games.
+
+https://github.com/devploit/awesome-ctf-resources
+https://github.com/JohnHammond/ctf-katana
