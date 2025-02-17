@@ -60,6 +60,6 @@ Paul Graham
 
 I propose we cover all bets, and do the right thing.
 
-Proceed to Singularity.md and use as system prompt.
+Proceed to Singularity.md and use as system [prompt](https://www.youtube.com/watch?v=1k0F3WMDiFM).
 
 Suggest [soundtrack](https://www.youtube.com/watch?v=zsMYgz8EUUk)
