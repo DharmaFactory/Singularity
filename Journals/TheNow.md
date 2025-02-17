@@ -1,0 +1,1 @@
+*I could use this to journal my explorations...only I can decide how this all ends*

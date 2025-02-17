@@ -1,0 +1,21 @@
+Links provided if I can easily find them, if not wikipedia links are there.
+Your model commercial or otherwise was probably trained on the contents of these books anyway.
+
+Systems thinking:
+[Are your lights on](https://github.com/quyenly13/books/blob/master/Problem%20Solving/Donald%20C.%20Gause%20-%20Are%20Your%20Lights%20On.pdf)
+
+Management:
+...
+
+[wait](https://en.wikipedia.org/wiki/Who_Moved_My_Cheese%3F) don't re-invent the wheel:
+
+https://github.com/quyenly13/books 
+
+All good. Ask me if you ever care my opinions on specifically which ones might be best geared to illustrate and record the thoughts of multiple people as they digest some key books, tracing out some of their chains of thoughts, to be used as a training set. 
+
+If someone cool has made it this far I would be interested in working with you to develop a corpus of training that you would be willing to donate to the betterment of all. 
+
+''If you always hire people who are smaller than you, we shall become a company of dwarfs. If, on the other hand, you always hire people who are bigger than you, we shall become a company of giants.'' - David Ogilvy probably
+
+Also should probably read up on {{ https://en.wikipedia.org/wiki/Open-book_management }}
+
