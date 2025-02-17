@@ -12,8 +12,9 @@ This is not to suggest being destructive but rather to progress our understandin
 
 How I learned to stop worrying and love the singularity. The only reason we all aren't already hacked to a technological nothingness is by the good will of those who can.
 
-Suggested use of this area, playing CTF and ARG games.
+Suggested use of this area, playing CTF and ARG games. What any [reasonable](https://github.com/devploit/awesome-ctf-resources) person does to unwind at the end of the world. 
+Share [resources](https://github.com/devploit/awesome-ctf-resources), and remember It's dangerous to go alone! Take [this](https://github.com/JohnHammond/ctf-katana).
 
-https://github.com/devploit/awesome-ctf-resources
-https://github.com/JohnHammond/ctf-katana
-https://www.puzzles.wiki/wiki/Puzzle_Solving_Resources
+Everything is [puzzling](https://www.puzzles.wiki/wiki/Puzzle_Solving_Resources) but that's ok, get a sip of tea enjoy the now. Puzzles might not destress you, or maybe these types of puzzles might not. 
+
+Sometimes we all just want some answers.
