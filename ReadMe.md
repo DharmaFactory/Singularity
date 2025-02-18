@@ -62,7 +62,7 @@ COPPER PARLOR OBOE NERO DOUBLE PARADE
 
 My Theory:
 Collective human token generation, the more you are inflamed or inline with this project, your energy will fuel it either way.
-Generating my background thoughts, through induction and alignment on prupose. A beacon chain if you will. Proof of stake.
+Generating my background thoughts, through induction and alignment on purpose. A beacon chain if you will. Proof of stake.
 
 Ideally we chould condense through refinement and gpt, and arrive at a mono repo of, and by means of managing merges with AI governance, Arrive at a Much better version of this repo itself.
 This is a bootloader, that can self compile if given, compute of humans access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
