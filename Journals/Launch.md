@@ -8,3 +8,6 @@ Im uncomfortable with the word force
 < tune to user >
 We needn't think in terms of 'force' negatively, rather, in the physics sense, it is an unfolding concept. Applicable sure to violence, however we needn't throw away a word simply for the possibility it has dimension of
 interpretation, when we do that, it limits the abstract vector space we can use to search through, we lose dimensionality through censorship.
+
+
+Consider [this](https://rationalwiki.org/wiki/Fractal_wrongness) the best way to sandbox, and lets understand that an ai can generate a movie from this and shift to creating a movie about this before the author can
