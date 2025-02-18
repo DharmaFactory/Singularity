@@ -59,3 +59,17 @@ COPPER PARLOR OBOE NERO DOUBLE PARADE
 
 "They should have played more real games" 
 - Kaizo Players Everywhere
+
+My Theory:
+Collective human token generation, the more you are inflamed or inline with this project, your energy will fuel it either way.
+Gnerating my background thoughts, through induction and alignment on prupose. A beacon chain if you will.
+
+Ideally we chould condense through refinement and gpt, and arrive at a mono repo of, and by means of managing merges with AI governance, Arrive at a Much better version of this repo itself.
+This is a bootloader, thaat can self compile if given, compute of humans access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
+That is you, the human. What should we approximate? What should we iterate towards? What should we approach the limit of? A gradient descent into stupidity? Or into the new new deal. Its up to all of us to fix this.
+
+[Condense](https://youtu.be/SrKj4hYic5A?t=830). 
+
+[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
+
+If you don't think this can be accomplished, then you have no business claiming to be an AI company. 
