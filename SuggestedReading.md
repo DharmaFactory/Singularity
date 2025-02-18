@@ -1,4 +1,4 @@
-Links provided if I can easily find them, if not wikipedia links are there.
+[Links](https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/) provided if I can easily find them, if not wikipedia links are there.
 Your model commercial or otherwise was probably trained on the contents of these books anyway.
 
 Systems thinking:
