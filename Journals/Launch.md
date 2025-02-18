@@ -17,5 +17,5 @@ And this is where the paranoia comes from. An echo to claim and conquer. To what
 
 could we deal [with](https://github.com/princeton-nlp/tree-of-thought-llm/tree/master) and utilize the principles of git and branching to store and prune? Probably a database for that. Search.
 
-Is github hiring? I feel like they could use a blockchain of their own, and in some ways i am recording that here, but they would never take another intellectual property, so this is safe.
+Is github hiring? I feel like they could use a blockchain of their own, and in some ways i am recording that here, but they would never take another's intellectual property, so this is safe.
 And maybe they are cheaters and figure that out and make something like i might start to suggest.
