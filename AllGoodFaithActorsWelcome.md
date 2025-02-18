@@ -35,5 +35,5 @@ to see it more clearly through the role of {{ a different role }}
 please use metaphor along with the nomenclature typically
 associated with my {{ your role here }}
 
-{{ my actual strengths are }} are all my strengths, I have actual experience in {{ up to n areas }}.
+{{ my actual strengths are }} are all my [strengths](https://www.youtube.com/watch?v=pktMqkfvoBM), I have actual experience in {{ up to n areas }}.
 I wish to understand how I might fit into project singularity?
