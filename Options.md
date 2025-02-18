@@ -22,3 +22,4 @@ Find out about the [Bell Riots](https://memory-alpha.fandom.com/wiki/Bell_Riots)
 
 "Whatever your nation and peoples hope to bring to pass, must first come to pass in the heart of your nation and peoples." - Probably some AI
 
+Research: https://github.com/TheWizardsOfOrd/Elements/blob/main/boilerplate/p5js/delegate-collection/delegate.html#L43
