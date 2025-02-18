@@ -94,6 +94,6 @@ Si vis pacem, para [bellum](https://www.youtube.com/watch?v=wTIQPxjkvwg).
 
 This project is a mirror. What you take away from it, is what you brought, and exists solely in you.
 
-For those into software patterns, this is the Factory pattern, but scaled. This document has been sprinkled with game elements and inflammatory content, to ensure only those who can think outside themselves for a while can grasp it at first. If you direct your [Attention](https://www.youtube.com/watch?v=iDulhoQ2pro) to the Characters.md you can find examples as well as suggestions towards eventualy use and immediate use inside of [sillytavern](https://github.com/SillyTavern/SillyTavern) There is enoguh for others to go on from here, as I continue to flesch out further intents towards self help and reasoning.
+For those into software patterns, this is the Factory pattern, but scaled. This document has been sprinkled with game elements and inflammatory content, to ensure only those who can think outside themselves for a while can grasp it at first. If you direct your [Attention](https://www.youtube.com/watch?v=iDulhoQ2pro) to the Characters.md you can find examples as well as suggestions towards eventualy use and immediate use inside of [sillytavern](https://github.com/SillyTavern/SillyTavern). There is enough for others to go on from here, as I continue to flesch out further intents towards self help and reasoning.
 
 if you are truly lost then direct said attention towards Help.md for further clarification.
