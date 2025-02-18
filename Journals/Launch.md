@@ -14,3 +14,8 @@ Consider [this](https://rationalwiki.org/wiki/Fractal_wrongness) the best way to
 However, showing time stamp and authorship at this point in time, I lay claim to properties generated here on from this. 
 
 And this is where the paranoia comes from. An echo to claim and conquer. To what end?
+
+could we deal [with](https://github.com/princeton-nlp/tree-of-thought-llm/tree/master) and utilize the principles of git and branching to store and prune? Probably a database for that. Search.
+
+Is github hiring? I feel like they could use a blockchain of their own, and in some ways i am recording that here, but they would never take another intellectual property, so this is safe.
+And maybe they are cheaters and figure that out and make something like i might start to suggest.
