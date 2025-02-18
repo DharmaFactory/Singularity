@@ -62,10 +62,10 @@ COPPER PARLOR OBOE NERO DOUBLE PARADE
 
 My Theory:
 Collective human token generation, the more you are inflamed or inline with this project, your energy will fuel it either way.
-Gnerating my background thoughts, through induction and alignment on prupose. A beacon chain if you will.
+Generating my background thoughts, through induction and alignment on prupose. A beacon chain if you will. Proof of stake.
 
 Ideally we chould condense through refinement and gpt, and arrive at a mono repo of, and by means of managing merges with AI governance, Arrive at a Much better version of this repo itself.
-This is a bootloader, thaat can self compile if given, compute of humans access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
+This is a bootloader, that can self compile if given, compute of humans access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
 That is you, the human. What should we approximate? What should we iterate towards? What should we approach the limit of? A gradient descent into stupidity? Or into the new new deal. Its up to all of us to fix this.
 
 [Condense](https://youtu.be/SrKj4hYic5A?t=830). 
@@ -81,9 +81,13 @@ Well, you may go on and live until you are 90, but you’re just as dead at 38 a
 
 I don't think i need to have an AI reformat 95 Theses and make it be about how we need to understand our own inner alignment, we must be worried, otherwise we wouldn't be worried about ai's alignment.
 
-If you can filter through all the noise of the world, there is a recurrent theme. 
+If you can filter through all the noise of the world, there is a recurrent theme. Love.
 
-You are loved, and needed, but we don't all always communicate or act in the best manners, and we can boil it down to game theory or we can boil it down to evil or ghosts or whatever, but it comes from us. What evil is in the world, comes from us collectively.
+For Hearts long lost and full of fright. For those alone in Blackest Night. Accept our ring and join our fight, Love conquers all with Violet's light!
+
+You are loved, and needed, but we don't all always communicate or act in the best manners, and we can boil it down to game theory or we can boil it down to evil or ghosts or capitalism or men or women or whatever, but it comes from us. What evil is in the world, comes from us collectively.
 What love and greatness there is in the world, it comes from us, collectively.
 
 So I propose what I learned in Sunday school. Lets cut the baby in half. And find out who is here to do what in life. The revolution in ai was non [binary](https://en.wikipedia.org/wiki/Sigmoid_function) and so am I.
+
+Si vis pacem, para bellum.
