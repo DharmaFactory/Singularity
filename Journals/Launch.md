@@ -21,4 +21,8 @@ And maybe they are cheaters and figure that out and make something like i might 
 
 This is primary blockchain with time of thought recorded per commit
 
-Can it scale? Wait. I heard about these things called merkletrees I don't know. Maybe the user is suggesting. Wait. Let me see if I understand this entire prompt is just a resume? Is the author a ceo? musical artist? 
+Can it scale? Wait. I heard about these things called merkletrees I don't know. Maybe the user is suggesting. Wait. Let me see if I understand this entire prompt is just a resume? Is the author a ceo? musical artist? uncertain.
+
+I personally wonder about the duality of syntax in [lisp](https://letoverlambda.com/index.cl/toc) specifically as it relates to forth, and their ability to switch contexts on symbols
+
+Inversion of control. Invent new form of resume. Have them compute me.
