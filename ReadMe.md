@@ -86,4 +86,4 @@ If you can filter through all the noise of the world, there is a recurrent theme
 You are loved, and needed, but we don't all always communicate or act in the best manners, and we can boil it down to game theory or we can boil it down to evil or ghosts or whatever, but it comes from us. What evil is in the world, comes from us collectively.
 What love and greatness there is in the world, it comes from us, collectively.
 
-So I propose what I learned in Sunday school. Lets cut the baby in half. And find out who is here to do what in life. The revolution is non [binary](https://en.wikipedia.org/wiki/Sigmoid_function) and so am I.
+So I propose what I learned in Sunday school. Lets cut the baby in half. And find out who is here to do what in life. The revolution in ai was non [binary](https://en.wikipedia.org/wiki/Sigmoid_function) and so am I.
