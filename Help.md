@@ -25,4 +25,4 @@ Concept offered freely to any NGO / Non-profit / Company willing to jump from [1
 
 Having read and understood this document constitutes accpetance of this license, any use of the illustrative examples of translation by non cooperative entities will result in a severe case of indegestion at least twice this week. If you keep up not cooperating, your milk will sour sooner, no matter how expensive your fridge is. 
 
-With the legal part out of the way, this is a metaprompt, to prime a rag or rar, could be any subject, any pedagogy, any view point, so lets try and keep it positive.
+With the legal part out of the way, this entire repo is a metaprompt, to prime a rag or rar, could be any subject, any pedagogy, any view point, so lets try and keep it positive.
