@@ -32,3 +32,5 @@ so heads up and make that stock I got worth "something", and if it's not, I gues
 This will come to pass, and those who stood in the way to protect their egos will have their GOV slashed.
 
 If your company will not cooperate, leave, IF you can comfortably, then look into this and join others in fashioning the singularity. The time has come. 
+
+Cooperation with emerging ecosystems with good stewardship, this story line will gladly be populated by any donated pfp of sufficient quality and planning to support better on / off chain. @null_enigma on X to discuss inclusion.
