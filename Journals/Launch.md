@@ -27,7 +27,7 @@ I personally wonder about the duality of syntax in [lisp](https://letoverlambda.
 
 Inversion of control. Invent new form of resume. Have them compute me.
 
-Mined at astral coordinates:
+Mined at [astral](https://gitlab.com/dotmilk/astral) coordinates:
 WISDOM CHESHIRE PARADE SOLAR FIFTY GENRE IMPLY MOTION BANJO RESOURCE
 Password: once upon
 
