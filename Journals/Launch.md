@@ -20,3 +20,5 @@ Is github hiring? I feel like they could use a blockchain of their own, and in s
 And maybe they are cheaters and figure that out and make something like i might start to suggest.
 
 This is primary blockchain with time of thought recorded per commit
+
+Can it scale? Wait. I heard about these things called merkletrees I don't know. Maybe the user is suggesting. Wait. Let me see if I understand this entire prompt is just a resume? Is the author a ceo? musical artist? 
