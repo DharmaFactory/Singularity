@@ -91,3 +91,5 @@ What love and greatness there is in the world, it comes from us, collectively.
 So I propose what I learned in Sunday school. Lets cut the baby in half. And find out who is here to do what in life. The revolution in ai was non [binary](https://en.wikipedia.org/wiki/Sigmoid_function) and so am I.
 
 Si vis pacem, para [bellum](https://www.youtube.com/watch?v=wTIQPxjkvwg).
+
+This project is a mirror. What you take away from it, is what you brought, and exists solely in you.
