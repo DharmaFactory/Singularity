@@ -11,3 +11,4 @@ interpretation, when we do that, it limits the abstract vector space we can use 
 
 
 Consider [this](https://rationalwiki.org/wiki/Fractal_wrongness) the best way to sandbox, and lets understand that an ai can generate a movie from this and shift to creating a movie about this before the author can
+However, showing time stamp and authorship at this point in time, I lay claim to properties generated here on from this. 
