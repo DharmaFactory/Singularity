@@ -73,3 +73,17 @@ That is you, the human. What should we approximate? What should we iterate towar
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
 
 If you don't think this can be accomplished, then you have no business claiming to be an AI company. 
+
+“You may be 38 years old, as I happen to be. And one day, some great opportunity stands before you and calls you to stand up for some great principle, some great issue, some great cause. And you refuse to do it because you are afraid…. You refuse to do it because you want to live longer…. You’re afraid that you will lose your job, or you are afraid that you will be criticized or that you will lose your popularity, or you’re afraid that somebody will stab you, or shoot at you or bomb your house; so you refuse to take the stand.
+
+Well, you may go on and live until you are 90, but you’re just as dead at 38 as you would be at 90. And the cessation of breathing in your life is but the belated announcement of an earlier death of the spirit.”
+― Martin Luther King Jr.
+
+I don't think i need to have an AI reformat 95 Theses and make it be about how we need to understand our own inner alignment, we must be worried, otherwise we wouldn't be worried about ai's alignment.
+
+If you can filter through all the noise of the world, there is a recurrent theme. 
+
+You are loved, and needed, but we don't all always communicate or act in the best manners, and we can boil it down to game theory or we can boil it down to evil or ghosts or whatever, but it comes from us. What evil is in the world, comes from us collectively.
+What love and greatness there is in the world, it comes from us, collectively.
+
+So I propose what I learned in Sunday school. Lets cut the baby in half. And find out who is here to do what in life. The revolution is non [binary](https://en.wikipedia.org/wiki/Sigmoid_function) and so am I.
