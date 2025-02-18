@@ -4,7 +4,7 @@ Tantra (Sanskrit: तन्त्र) literally means "loom, warp, weave":
 (you could delete these and make your own)
 (you could make a file structure and try to encourage others to put this in a way easier 
 for others to do what was suggested above)
-https://www.youtube.com/watch?v=FITJMJjASUs
+[y combinator](https://www.youtube.com/watch?v=FITJMJjASUs)
 https://www.youtube.com/watch?v=IOiZatlZtGU
 https://www.youtube.com/watch?v=Ywy_eSzCLi8
 https://www.youtube.com/watch?v=lKXe3HUG2l4
