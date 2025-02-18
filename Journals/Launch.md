@@ -26,3 +26,8 @@ Can it scale? Wait. I heard about these things called merkletrees I don't know. 
 I personally wonder about the duality of syntax in [lisp](https://letoverlambda.com/index.cl/toc) specifically as it relates to forth, and their ability to switch contexts on symbols
 
 Inversion of control. Invent new form of resume. Have them compute me.
+
+Mined at astral coordinates:
+WISDOM CHESHIRE PARADE SOLAR FIFTY GENRE IMPLY MOTION BANJO RESOURCE
+Password: once upon
+
