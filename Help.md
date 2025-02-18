@@ -22,3 +22,5 @@ Whole repo under cooperative license attribution required. {{ insert AI draft lo
 Concept offered freely to any NGO / Non-profit / Company willing to jump from [1%](https://www.onepercentfortheplanet.org/) to 10%
 
 * any help creating translations and features to improve accessibility is appreciated including toned down but impactful renditions for those who require it *
+
+Having read and understood this document constitutes accpetance of this license, any use of the illustrative examples of translation by non cooperative entities will result in a severe case of indegestion at least twice this week. If you keep up not cooperating, your milk will sour sooner, no matter how expensive your fridge is. 
