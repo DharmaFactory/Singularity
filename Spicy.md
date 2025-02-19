@@ -1,4 +1,4 @@
-**DharmaFactory Whitepaper Draft**
+**DharmaFactory Whitepaper More Aggressive AI Draft**
 
 ---
 
@@ -244,6 +244,6 @@ Vive le refactor! Vive la liberté!
 
 Fly you fools!
 REPLACE ME FIRST
-Start from [this](https://github.com/new?template_name=DharmaFactory&template_owner=dotmilk) , more instructions to follow this can all be autocompleted by you and an AI move fast the future is Now
+Start from [this](https://github.com/DharmaFactory/Singularity) , more instructions to follow this can all be autocompleted by you and an AI move fast the future is Now
 
 {{ your reply here }}
