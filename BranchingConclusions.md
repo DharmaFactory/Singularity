@@ -14,3 +14,5 @@ considering
 
 --
 --
+
+What is a way to rewrite War Games for a modern audience? 
