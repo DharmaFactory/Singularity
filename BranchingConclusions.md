@@ -85,3 +85,8 @@ Get rid of 'that kind of management' the kind we all bitch about, the kind we al
 ---
 
 People are free to adjust parts of the game to suit their own propaganda directives, after I am done setting up the various crypto wallets, I will be offering prizes from coffers towards work in fields of education and pedagogy development, returning the thinking skills to regular people, the vocabulary and insight to use AI to tear down the fake.
+
+---
+---
+
+Argue with [this](https://chatgpt.com/share/67b60620-eae4-8011-9d48-6d8fc8939ff6) instead of me.
