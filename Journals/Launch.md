@@ -31,3 +31,18 @@ Mined at [astral](https://gitlab.com/dotmilk/astral) coordinates:
 WISDOM CHESHIRE PARADE SOLAR FIFTY GENRE IMPLY MOTION BANJO RESOURCE
 Password: once upon
 
+Hypothesis: aside from the real, which has been marignialized to make way for the simulacra, all value is derived from speculation.
+
+I speculate that I can translate ideas from several books, and refrain from having to create a training set other than my own thoughts, slowly remove links to INSTANCES of knowledge that I have learned.  
+In other words, distill the knowledge of others without their consent, which i don't need because they agreed to speak with me before they understood what AI was fully.
+
+And since i am merely using and having conversations with ai, and then synthesizing my own knowledge, and inscribing it in a chain of hashes, one commit at a time, these beacons might have future use I don't know about right now, but will become apparent at some point in the future as this unravels, or atleast that is what one could speculate, given the always unfolding nature of discovery.
+
+If you say this is worthless, you are, your ai is, your crypto is. welcome to the ever evolving, slow action blockchain vm. it exists speculatively, and it is rare. This is the only one of its kind.
+
+L0 - Your mind
+L1 - Git
+L2 - Experiment with ways of transmitting and signing messages using weird codes, even simple ciphers, start to digest the fundamentals of a block and chain
+L3 - Let them speculate
+
+Mined at [astral](https://gitlab.com/dotmilk/astral/) BISHOP DHARMA DOUBLE SCARLET HORNET WISDOM POETRY INFER ORCHARD TWENTY OPUS SPARKLE PRECIOUS TWENTY IMPLY DOUBLE HEMLOCK NEUTRAL DANTE COPPER LINEAR ACORN WIZARD VAMPIRE TAXI FIFTY PICTURE FERROUS UNION AUTHOR VEGA REPLY FALCON
