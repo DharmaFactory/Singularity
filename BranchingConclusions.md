@@ -26,3 +26,9 @@ Thrill Ride: Create text based game, for nostalgiac feel. Modern political intri
 --
 
 Which coffers fill up first? How do we predict what humans are?
+
+--
+--
+
+Proposal for coffer creation accepted
+Researching categories to drive engagement
