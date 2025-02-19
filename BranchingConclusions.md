@@ -56,3 +56,26 @@ What if we could vote on what skynet did?
 --
 
 What if it could target the poor for us? The rich for us? Those we don't agree with?
+
+--
+--
+
+There is no nice mirror, no black mirror, there is only the mirrorless mirror. The fear of the unknown. How many others are out there on the search for this? To make this? Or make some part of this, without understanding the whole of what they are making? What great things it can bring, what horrible things people can use it for.  
+
+Oh I see, its the gun debate?
+No its the child debate. 
+Each human has infinite potential, such great things, and such horrible things. 
+We trust that the same systems that keep us begrudingly aligned with the endless fake news from ai talking heads, that maybe now you can all start to see. It's just story tellers. Telling you stories, that regardles of what they were, what the stories were, how they made you feel. They will all bring you here, to these words, to your own thoughts. You are the monsters, you are the angels. Not any example of a Billionaire, individually I have no idea, but I can see the result of everyone standing around pointing at each other, dripping in self righteous-ness. I have none, I am going to write this story the way I get paid to. But id rather see it come out the way I want it to. 
+
+Mental healthcare stop gaps, roll out tech and ai, stop pretending this farce can go on forever. Stop pretending any of you can control anything at scale, and let all of humanity take a breath.
+
+```
+The safest world is no one has guns.
+2nd safest is everyone has guns.
+Worst world is some people have guns.
+```
+
+Everything has potential one way or the other, it isn't your right to tell someone else what to do with their potential. requiring others to suffer as you have is a crappy way of handling things. I worked hard for the knowledge I have gained in life, and I can whine about how easy it is now, and how litle being a programmer might be worth, or as was suggested by big business, I can pick myself up by the bootstraps. 
+
+Some people out there might be wanting to use things for bad and for good, so this repo in addition to many other things suggests what bill hicks [suggested](https://www.youtube.com/watch?v=A0mBAsIPS1w)
+
