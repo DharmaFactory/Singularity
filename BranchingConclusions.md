@@ -4,3 +4,13 @@ mined at [astral](https://gitlab.com/dotmilk/astral/) coordinates WINDOW AZTEC C
 --
 
 NEPTUNE PROGRAM SALMON VAMPIRE ORPHAN PILGRIM SONNET TOWER TERRA TOWER FOUNTAIN ASTRO COSMIC MONO DOUBLE PILGRIM CELLO SERPENT SEVEN MONO GENRE ESTATE OPAL NOVA INGRESS CELLO DISCO RESPOND CADENCE PRECIOUS BLINDING TAXI CHEETAH NOBLE
+
+
+--
+--
+
+suggestion: create wallets to fund modules (e-warfare, mini swarm drones, compassion, education, cooperation...)
+considering
+
+--
+--
