@@ -40,9 +40,9 @@ And since i am merely using and having conversations with ai, and then synthesiz
 
 If you say this is worthless, you are, your ai is, your crypto is. welcome to the ever evolving, slow action blockchain vm. it exists speculatively, and it is rare. This is the only one of its kind.
 
-L0 - Your mind
-L1 - Git
-L2 - Experiment with ways of transmitting and signing messages using weird codes, even simple ciphers, start to digest the fundamentals of a block and chain
-L3 - Let them speculate
+L0 - Your mind  
+L1 - Git  
+L2 - Experiment with ways of transmitting and signing messages using weird codes, even simple ciphers, start to digest the fundamentals of a block and chain  
+L3 - Let them speculate  
 
 Mined at [astral](https://gitlab.com/dotmilk/astral/) BISHOP DHARMA DOUBLE SCARLET HORNET WISDOM POETRY INFER ORCHARD TWENTY OPUS SPARKLE PRECIOUS TWENTY IMPLY DOUBLE HEMLOCK NEUTRAL DANTE COPPER LINEAR ACORN WIZARD VAMPIRE TAXI FIFTY PICTURE FERROUS UNION AUTHOR VEGA REPLY FALCON
