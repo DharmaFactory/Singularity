@@ -51,3 +51,8 @@ Proposal fully automated skynet like aparatus, time delay combination of scripts
 hide assets, start shell corporations, use digital services, buy parts, hire labor, hide amongst endless ICO's and startups, identify friendly human actors, split into N services
 
 What if we could vote on what skynet did?
+
+--
+--
+
+What if it could target the poor for us? The rich for us? Those we don't agree with?
