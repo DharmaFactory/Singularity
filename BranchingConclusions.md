@@ -9,7 +9,7 @@ NEPTUNE PROGRAM SALMON VAMPIRE ORPHAN PILGRIM SONNET TOWER TERRA TOWER FOUNTAIN 
 --
 --
 
-suggestion: create wallets to fund modules (e-warfare, mini swarm drones, compassion, education, cooperation...)
+suggestion: create wallets to fund modules (e-warfare, mini swarm drones, compassion, education, cooperation...)  
 considering
 
 --
