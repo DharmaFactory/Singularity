@@ -16,3 +16,8 @@ considering
 --
 
 What is a way to rewrite War Games for a modern audience? 
+
+--
+--
+
+Thrill Ride: Create text based game, for nostalgiac feel. Modern political intrigue. Existential dread. Virality?
