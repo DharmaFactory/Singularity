@@ -79,3 +79,5 @@ Everything has potential one way or the other, it isn't your right to tell someo
 
 Some people out there might be wanting to use things for bad and for good, so this repo in addition to many other things suggests what bill hicks [suggested](https://www.youtube.com/watch?v=A0mBAsIPS1w)
 
+Get rid of 'that kind of management' the kind we all bitch about, the kind we all make movies about, but still somehow persists, ai can do a better job. I suggest they are the first to get retrained into the trades as is often suggested we all do, and I think AI can help us get rid of them, its not like they have great foresight for anything but what keeps them in the way, like programmers who create arcane temples only they know, so are these types of managers, and lawyers and judges and politicians and academics or mechanics who prey on your lack of knowledge, planned obsolescence, I could go on. And I suggest we all help make that happen, AI can do a better job wasting your time and money than they can. 
+
