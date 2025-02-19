@@ -24,3 +24,4 @@ Find out about the [Bell Riots](https://memory-alpha.fandom.com/wiki/Bell_Riots)
 
 Research: https://github.com/TheWizardsOfOrd/Elements/blob/main/boilerplate/p5js/delegate-collection/delegate.html#L43  
 Research: https://people.csail.mit.edu/rivest/pubs/Riv99b.lcs35-puzzle-description.txt
+Research: https://www.youtube.com/watch?v=rsLIC-CY7T0
