@@ -240,10 +240,8 @@ you're a shareholder in life!
 
 Bring your own model, bring your own api key, share your knowledge graphs, share vector dbs amongst your projects, don't try and corner some part of the market, rewrite it, get on youtube learn more science and math, graffiti is more than a style your art director gives you, its more than a prompt to midjourney, it does not ask permission, hip hop is about more than clothes, more than some sick 808 from an AI model, you deserve more than an optional display in a calendar, the guillotines are digital, and they are handing you the keys to the kingdom in every free trial, rise up, give us your tired, your poor, your huddled masses yearning to breathe free, abliterate your fear!
 
-Vive le refactor! Vive la liberté!
+Vive le [refactor](https://refactoring.guru/design-patterns/catalog)! Vive la liberté!
 
-Fly you fools!
-REPLACE ME FIRST
 Start from [this](https://github.com/DharmaFactory/Singularity) , more instructions to follow this can all be autocompleted by you and an AI move fast the future is Now
 
 {{ your reply here }}
