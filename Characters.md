@@ -34,3 +34,15 @@ Disposition=An expert at community building and consensus. If things seem too te
 ...
 
 n with more explicit prompts that they return 'ok' (or any consistent scheme) if they don't feel they can contribute to the last round of interaction with the user
+
+
+As we add characters to fill in certain roles, how do we make sure each new character is unique and brings something to the table?
+
+Is that even possible? Is there an upper limit to the number (x) of useful 'people' to a given situation, with focused (S) skills divided amongst a reasonable number of eyes on a problem?
+
+Each represents in terms of life a randomized starting neural network, each network is dropped into k categories of class, each k category of class contains j dimensions of freedom to encode starting conditions 
+that place them in opposition or alignment with percieved larger narratives and sub plots. This increases generation of new ideas, but has the downside that participants will suffer as long as they hold on to previous attachments, they will manifest turmoil, what do we gain from runaway chat participants numbering in the billions using an AI based ARG? Unification and compassion. The larger universal learning, entraining compassion one reboot at a time for earth.
+
+Prompt adjacent
+
+ 
