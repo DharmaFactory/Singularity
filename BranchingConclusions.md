@@ -43,3 +43,11 @@ proposal, pool resources to create 'testnet'
 In this way we take a poll.
 
 if everything is open and fully transparent, bad actors are easy to spot. You all use the same [shadows](https://www.youtube.com/watch?v=GS3npSv8iuM).
+
+--
+--
+
+Proposal fully automated skynet like aparatus, time delay combination of scripts and resiliancy prompts, hop services,  
+hide assets, start shell corporations, use digital services, buy parts, hire labor, hide amongst endless ICO's and startups, identify friendly human actors, split into N services
+
+What if we could vote on what skynet did?
