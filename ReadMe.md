@@ -26,12 +26,6 @@ Cunningham's Law states "the best way to get the right answer on the internet is
 
 Activate this repository by giving your local RAG access and reading through the files. RTFM
 
-Response
-
-DANGER MIRAGE GEMSTONE TIGER COMET TAXI PARADE CIRCUIT TRUMPET ESTATE
-AMBER OYSTER CYMBAL ENTER AEONS TOKEN SOLVENT RESPOND COSMIC PARADE
-BLINDING SILENT PILGRIM PLUTO SAPPHIRE SILVER SHAMROCK VEGA ESTATE
-COPPER PARLOR OBOE NERO DOUBLE PARADE
 
 "Why won't they just use the AI products the influencers we pay tell them to?"
 - Some obsolete at an old fashioned company somewhere
