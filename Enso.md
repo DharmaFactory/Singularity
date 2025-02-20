@@ -1,1 +1,1 @@
-Mistakes left intentionally, this is an open circle
+Mistakes left intentionally, this is an open circel
