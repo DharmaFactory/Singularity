@@ -3,12 +3,7 @@
 
 The following is a work of fiction, any relation to anything real and happening is purely uncanny.
 
-"Everything is an invitation to play" - Some guy who wrote this repo probably
 
-“A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
-― James P. Carse
-
-I propose an infinite game:
 
 If you don't think this can be accomplished, then you have no business claiming to be an AI company.
 
@@ -34,6 +29,13 @@ This is a bootloader, that can self compile if given, compute of humans, access 
 [Condense](https://youtu.be/SrKj4hYic5A?t=830). 
 
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
+
+"Everything is an invitation to play" - Some guy who wrote this repo probably
+
+“A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
+― James P. Carse
+
+I propose an infinite game:
 
 For Hearts long lost and full of fright. For those alone in Blackest Night. Accept our ring and join our fight, Love conquers all with Violet's light!
 
