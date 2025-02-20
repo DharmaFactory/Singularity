@@ -20,7 +20,7 @@ Another way of saying that is:
 
 This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. (that is just a fancy way of saying if you read this like a book and imagine you'll go pretty far in this new world)
 
-[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What follows and i and ai suggest is categorical.
+[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What follows ai an i suggest is [categorical](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). <- my favorite book
 
 
 
