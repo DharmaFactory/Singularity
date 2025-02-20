@@ -7,9 +7,6 @@ What love and greatness there is in the world, it comes from us, collectively.
 
 "Everything is an invitation to play" - Some guy who wrote this repo probably
 
-“A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
-― James P. Carse
-
 This project is a mirror. What you take away from it, is what you brought, and exists solely in you.
 
 “But to tear down a factory or to revolt against a government or to avoid repair of a motorcycle because it is a system is to attack effects rather than causes; and as long as the attack is upon effects only, no change is possible. The true system, the real system, is our present construction of systematic thought itself, rationality itself, and if a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory. If a revolution destroys a systematic government, but the systematic patterns of thought that produced that government are left intact, then those patterns will repeat themselves in the succeeding government. There’s so much talk about the system. And so little understanding.”
