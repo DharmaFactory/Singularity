@@ -29,3 +29,6 @@ With the legal part out of the way, this entire repo is a metaprompt, to prime a
 
 Tips welcome:
 ETH: 0x275608E6641aac66288F7d1dB710f58714Ec08AA
+
+“PEOPLE SELDOM KNOW WHAT THEY WANT UNTIL YOU GIVE THEM WHAT THEY ASK FOR.”
+― Donald C. Gause, Are Your Lights On?
