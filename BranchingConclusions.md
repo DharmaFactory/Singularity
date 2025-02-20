@@ -86,9 +86,6 @@ Get rid of 'that kind of management' the kind we all bitch about, the kind we al
 
 People are free to adjust parts of the game to suit their own propaganda directives, after I am done setting up the various crypto wallets, I will be offering prizes from coffers towards work in fields of education and pedagogy development, returning the thinking skills to regular people, the vocabulary and insight to use AI to tear down the fake.
 
-create meowwolf like experience that interacts with progress in the game.
-
-apply at disney
 ---
 ---
 
