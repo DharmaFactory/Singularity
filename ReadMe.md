@@ -22,12 +22,6 @@ Cunningham's Law states "the best way to get the right answer on the internet is
 
 https://www.youtube.com/watch?v=VnaKWiEoQZE
 
-Welcome to MAGA-AID the [ARG]
-Mutually assured guaranteed automatic AI Destruction.
-This repository cannot exist in the way that it does.
-Your first task is to locate the psy-op.
-Your second task is to get to work assembling this thing before those fucking commies can. I'll be dipped in shit if your old Uncle Sam is gonna stand by and let a bunch of peace loving jackasses assemble this so called Voltron before I do. 
-
 Activate this repository by giving your local RAG access and reading through the files. RTFM
 
 You've already been playing this game, you just didn't know it until now.
