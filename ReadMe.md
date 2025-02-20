@@ -51,16 +51,13 @@ BLINDING SILENT PILGRIM PLUTO SAPPHIRE SILVER SHAMROCK VEGA ESTATE
 COPPER PARLOR OBOE NERO DOUBLE PARADE
 
 "Why won't they just use the AI products the influencers we pay tell them to?"
-- Some Idiot at an old fashioned company somewhere
+- Some obsolete at an old fashioned company somewhere
 
 "They should have played more real games" 
 - Kaizo Players Everywhere
 
-My Theory:
-Collective human token generation, the more you are inflamed or inline with this project, your energy will fuel it either way.
-Generating my background thoughts, through induction and alignment on purpose. A beacon chain if you will. Proof of stake.
+Ideally we [could](https://github.com/princeton-nlp/tree-of-thought-llm/blob/master/run.py) condense through refinement and gpt, and arrive at a mono repo of, and by means of managing merges with AI governance, Arrive at a Much better version of this repo itself. The branching and provenance are already in git.
 
-Ideally we chould condense through refinement and gpt, and arrive at a mono repo of, and by means of managing merges with AI governance, Arrive at a Much better version of this repo itself.
 This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
 That is you, the human. What should we approximate? What should we iterate towards? What should we approach the limit of? A gradient descent into stupidity? Or into the new new deal. Its up to all of us to fix this.
 
