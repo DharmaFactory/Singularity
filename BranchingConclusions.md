@@ -91,6 +91,12 @@ People are free to adjust parts of the game to suit their own propaganda directi
 
 adjust astral jump repo shift narrative by OMEN PRECIOUS DOUGLAS ESTATE HEMLOCK CELLO BISHOP COSMIC FERROUS AVID FOUNTAIN SALMON SCARLET DHARMA WATSON 
 
+---
+---
 
+deploy deploy 
+
+---
+---
 
 Argue with [this](https://chatgpt.com/share/67b60620-eae4-8011-9d48-6d8fc8939ff6) instead of me.
