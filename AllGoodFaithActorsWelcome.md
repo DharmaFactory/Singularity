@@ -1,5 +1,3 @@
-With the entirety of this document pasted into chatgpt, all GPT's "listening" please explain to the user how you believe this document is to be used, and how it might be helpful as well as what next steps might be.
-
 All spectrums are welcome, we will not tolerate divisiveness.
 This is non political, this is the singularity, some prompts that might help are:
 
