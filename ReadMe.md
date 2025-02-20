@@ -40,15 +40,11 @@ This is a bootloader, that can self compile if given, compute of humans, access 
 
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
 
-
-I don't think i need to have an AI reformat 95 Theses and make it be about how we need to understand our own inner alignment, we must be worried, otherwise we wouldn't be worried about ai's alignment.
-
 If you can filter through all the noise of the world, there is a recurrent theme. Love.
 
 For Hearts long lost and full of fright. For those alone in Blackest Night. Accept our ring and join our fight, Love conquers all with Violet's light!
 
 You are loved, and needed, but we don't all always communicate or act in the best manners, and we can boil it down to game theory or we can boil it down to evil or ghosts or capitalism or men or women or whatever, but it comes from us. What evil is in the world, comes from us collectively.
 What love and greatness there is in the world, it comes from us, collectively.
-
 
 This project is a mirror. What you take away from it, is what you brought, and exists solely in you.
