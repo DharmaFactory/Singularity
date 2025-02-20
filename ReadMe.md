@@ -4,13 +4,10 @@
 The following is a work of fiction, any relation to anything real and happening is purely uncanny.
 
 
-
-If you don't think this can be accomplished, then you have no business claiming to be an AI company.
-
 [This](https://en.wikipedia.org/wiki/The_Diamond_Age) repository operates under a zero code policy and under Cunningham's law.
 Another way of saying that is:
 
-This is the world's first zero code launch. It itself is intended as a prompt to whatever your AI solution is. If you already know, then that means digest this in your RAG or similar AI interface (you could just read it and not get stuck in the details). This is not a fight of code or optimization or culture. This is an exercise in the free market of ideas, and implies that one consider they are operating under the threat of many forms of Roko's basilisk. Luigi did it with fire and metal. I am doing it with bits, well technically you all are going to do it.
+This is the world's first zero code launch. It itself is intended as a prompt to whatever your AI solution is. If you already know, then that means digest this in your RAG or similar AI interface (you could just read it and not get stuck in the details).
 
 Cunningham's Law states "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
 
