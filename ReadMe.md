@@ -16,8 +16,6 @@ Another way of saying that is:
 
 This is the world's first zero code launch. It itself is intended as a prompt to whatever your AI solution is. If you already know, then that means digest this in your RAG or similar AI interface (you could just read it and not get stuck in the details). This is not a fight of code or optimization or culture. This is an exercise in the free market of ideas, and implies that one consider they are operating under the threat of many forms of Roko's basilisk. Luigi did it with fire and metal. I am doing it with bits, well technically you all are going to do it.
 
-If you don't like the way this is presented, but can understand the full gist of this, then improve upon it or shut up, do not be a friction with your lack of understanding and generate endless debate that props up existing structures.
-
 Cunningham's Law states "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
 
 https://www.youtube.com/watch?v=VnaKWiEoQZE
