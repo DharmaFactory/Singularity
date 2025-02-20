@@ -11,19 +11,13 @@ This is the world's first zero code launch. It itself is intended as a prompt to
 
 Cunningham's Law states "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
 
-Activate this repository by giving your local RAG access and reading through the files. RTFM
-
-
 "Why won't they just use the AI products the influencers we pay tell them to?"
-- Some obsolete at an old fashioned company somewhere
+- Some obsolete at an old fashioned game company somewhere
 
 "They should have played more real games" 
 - Kaizo Players Everywhere
 
-
 This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
-
-[Condense](https://youtu.be/SrKj4hYic5A?t=830). 
 
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
 
