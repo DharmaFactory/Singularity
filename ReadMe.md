@@ -33,7 +33,6 @@ Activate this repository by giving your local RAG access and reading through the
 "They should have played more real games" 
 - Kaizo Players Everywhere
 
-Ideally we [could](https://github.com/princeton-nlp/tree-of-thought-llm/blob/master/run.py) condense through refinement and gpt, and arrive at a mono repo of, and by means of managing merges with AI governance, Arrive at a Much better version of this repo itself. The branching and provenance are already in git.
 
 This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
 
@@ -41,12 +40,6 @@ This is a bootloader, that can self compile if given, compute of humans, access 
 
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
 
-If you don't think this can be accomplished, then you have no business claiming to be an AI company. 
-
-“You may be 38 years old, as I happen to be. And one day, some great opportunity stands before you and calls you to stand up for some great principle, some great issue, some great cause. And you refuse to do it because you are afraid…. You refuse to do it because you want to live longer…. You’re afraid that you will lose your job, or you are afraid that you will be criticized or that you will lose your popularity, or you’re afraid that somebody will stab you, or shoot at you or bomb your house; so you refuse to take the stand.
-
-Well, you may go on and live until you are 90, but you’re just as dead at 38 as you would be at 90. And the cessation of breathing in your life is but the belated announcement of an earlier death of the spirit.”
-― Martin Luther King Jr.
 
 I don't think i need to have an AI reformat 95 Theses and make it be about how we need to understand our own inner alignment, we must be worried, otherwise we wouldn't be worried about ai's alignment.
 
