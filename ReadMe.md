@@ -5,12 +5,10 @@ What love and greatness there is in the world, it comes from us, collectively.
 
 This project is a mirror. What you take away from it, is what you brought, and exists solely in you.
 
-
 “But to tear down a factory or to revolt against a government or to avoid repair of a motorcycle because it is a system is to attack effects rather than causes; and as long as the attack is upon effects only, no change is possible. The true system, the real system, is our present construction of systematic thought itself, rationality itself, and if a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory. If a revolution destroys a systematic government, but the systematic patterns of thought that produced that government are left intact, then those patterns will repeat themselves in the succeeding government. There’s so much talk about the system. And so little understanding.”
 ― Robert M Pirsig, Zen and the Art of Motorcycle Maintenance: An Inquiry Into [Values](https://www.linkedin.com/feed/update/urn:li:activity:7138892499514744833/)
 
 The following is a work of fiction, any relation to anything real and happening is purely uncanny.
-
 
 [This](https://en.wikipedia.org/wiki/The_Diamond_Age) repository operates under a zero code policy and under Cunningham's law.
 Another way of saying that is:
@@ -25,7 +23,7 @@ Cunningham's Law states "the best way to get the right answer on the internet is
 "They should have played more real games" 
 - Kaizo Players Everywhere
 
-This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. 
+This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. (that is just a fancy way of saying if you read this like a book and imagine you'll go pretty far in this new world)
 
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
 
