@@ -11,6 +11,8 @@ The following is a work of fiction, any relation to anything real and happening 
 
 I propose an infinite game:
 
+If you don't think this can be accomplished, then you have no business claiming to be an AI company.
+
 [This](https://en.wikipedia.org/wiki/The_Diamond_Age) repository operates under a zero code policy and under Cunningham's law.
 Another way of saying that is:
 
