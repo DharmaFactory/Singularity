@@ -1,1 +1,0 @@
-[1](https://www.youtube.com/watch?v=Yq7FKO5DlV0): CIRCUIT COPPER COBRA TOKEN ROTATE PATTERN OYSTER IMPLY
