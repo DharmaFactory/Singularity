@@ -18,19 +18,12 @@ This project is a mirror. What you take away from it, is what you brought, and e
 [This](https://en.wikipedia.org/wiki/The_Diamond_Age) repository operates under a zero code policy and under Cunningham's law.
 Another way of saying that is:
 
-This is the world's first zero code launch. It itself is intended as a prompt to whatever your AI solution is. If you already know, then that means digest this in your RAG or similar AI interface (you could just read it and not get stuck in the details).
-
-Cunningham's Law states "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
-
-"Why won't they just use the AI products the influencers we pay tell them to?"
-- Some obsolete at an old fashioned game company somewhere
-
 "They should have played more real games" 
 - Kaizo Players Everywhere
 
 This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine. (that is just a fancy way of saying if you read this like a book and imagine you'll go pretty far in this new world)
 
-[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What i suggest is categorical.
+[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What follows and i and ai suggest is categorical.
 
 
 
