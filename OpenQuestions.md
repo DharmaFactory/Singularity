@@ -10,3 +10,5 @@ Bonus if you can make it weave nested intricate structures, so like $25 to you f
 Unpaid until sponsored:  
 How many characters were needed to create this?  
 Which Character was written first?  
+Which character from "The Venture Brothers" inspired the personality behind this project?
+These and countless more questions await those brave enough to play the singularity trivia game.
