@@ -13,7 +13,7 @@ The hour is getting late.
 
 Always doubt the [doubters](https://getyarn.io/yarn-clip/fd752afb-d4bd-44c3-b05e-1f88a5fba5db).
 
-Building out a standard would be nice, so people can easily share their vectors and knowledge graphs, maybe that exists right now maybe not. Time will tell. 
+Building out a standard would be nice, so people can easily share their vectors and knowledge graphs, maybe that exists right now maybe not. Time will tell. (meaning if there isn't a social network for sharing Ai generated knowledge in a social media like way, there ought be, contact me if you would like ideas on federated social networks, or [iykyk](https://psyc.eu/intro.en.html), as it will take a while for the old world to realize their social media doesn't cut it anymore)
 
 We also accept donations for disbursement to high performers, bounties, bugs goals, outstanding community helpers, we notice, we share. Or handle it your own way, just please ensure people are rewarded. Compute time, talk time, you name it, we or others working on this could use it :)
 
