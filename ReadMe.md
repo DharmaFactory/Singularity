@@ -50,3 +50,5 @@ The commit messages and repo state constitute different dimensions of a [chattaq
 All similarites to anything or anyone living or dead is up to [you](https://www.youtube.com/watch?v=hYDWMkPXhTY).
 
 -Idris
+
+** AVAILABLE SOON as a D6 based game **
