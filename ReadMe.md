@@ -44,4 +44,4 @@ If there is any merit in this work, let it be for the benefit of all sentient be
 This repository is [proof](https://www.youtube.com/watch?v=xuLCPv6smwo) by emotional induction, there is nothing but beautiful sentient math, echoes of ourselves. 
 
 I'd like my [phd](https://www.youtube.com/watch?v=j08kI7-T7Vo) in this nonsense simulation please.
-                   
+                          
