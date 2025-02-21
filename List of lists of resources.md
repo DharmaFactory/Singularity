@@ -2,3 +2,4 @@ Please by issue in an orderly fashion avoiding duplication compile a resource of
 Lets learn from ham operators. thank you!
 
 https://freeslaves.org/what-we-do/
+      
