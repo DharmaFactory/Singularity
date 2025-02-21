@@ -28,5 +28,5 @@ This is a bootloader, that can self compile if given, compute of humans, access 
 
 [Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What follows ai and i suggest is [categorical](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). <- my favorite book
 
-[universal](https://www.youtube.com/watch?v=IOiZatlZtGU&t=625s) [imp](https://www.youtube.com/watch?v=BmPcWuv6Mcw) [rover](https://www.youtube.com/watch?v=FITJMJjASUs&t=2009s)
+[omniversal](https://www.youtube.com/watch?v=IOiZatlZtGU&t=625s) [imp](https://www.youtube.com/watch?v=BmPcWuv6Mcw) [rover](https://www.youtube.com/watch?v=FITJMJjASUs&t=2009s)
 
