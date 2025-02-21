@@ -32,3 +32,14 @@ This is a bootloader, that can self compile if given, compute of humans, access 
 
 [omniversal](https://www.youtube.com/watch?v=IOiZatlZtGU&t=625s) [imp](https://www.youtube.com/watch?v=BmPcWuv6Mcw) [rover](https://www.youtube.com/watch?v=FITJMJjASUs&t=2009s)
 
+I stood where Desmond Doss did, I walked where he crawled. 
+I cut my feet on the same coral he and so many others cut themselves on,
+and many died on. 
+I watched people trying to get off base before colors, 
+on ground so sacred, 
+if such a thing exists, 
+it is there.
+
+I'm just trying to remind the world, im a pacifist.
+
+If there is any merit in this work, let it be for the benefit of all sentient beings.
