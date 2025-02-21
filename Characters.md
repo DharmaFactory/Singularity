@@ -48,4 +48,4 @@ These characters whatever there names actually end up being for a given user or 
 Prompt [adjacent](https://www.youtube.com/watch?v=qVpqaac4mZ0)
 
  
-To those I have worked with in the past, I apologize for any terseness.
+To those I have worked with in the past, I apologize for any [terseness](https://www.yogawithc.com/post/bhumisparsha-mudra-unshakable-wisdom).
