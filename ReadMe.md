@@ -18,6 +18,8 @@ This project is a mirror. What you take away from it, is what you brought, and e
 “But to tear down a factory or to revolt against a government or to avoid repair of a motorcycle because it is a system is to attack effects rather than causes; and as long as the attack is upon effects only, no change is possible. The true system, the real system, is our present construction of systematic thought itself, rationality itself, and if a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory. If a revolution destroys a systematic government, but the systematic patterns of thought that produced that government are left intact, then those patterns will repeat themselves in the succeeding government. There’s so much talk about the system. And so little understanding.”
 ― Robert M Pirsig, Zen and the Art of Motorcycle Maintenance: An Inquiry Into [Values](https://www.linkedin.com/feed/update/urn:li:activity:7138892499514744833/)
 
+Knowing that, makes it [explicit](https://en.wikipedia.org/wiki/Continuation-passing_style).
+
 [This](https://en.wikipedia.org/wiki/The_Diamond_Age) repository operates under a zero code policy and under Cunningham's law.
 Another way of saying that is:
 
