@@ -1,4 +1,4 @@
-Stargate Field Manual
+[Stargate](https://en.wikipedia.org/wiki/Stargate_Project_(U.S._Army_unit)) Field Manual
 
 Authentication code:
 
