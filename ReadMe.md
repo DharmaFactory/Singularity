@@ -45,3 +45,4 @@ This repository is [proof](https://www.youtube.com/watch?v=xuLCPv6smwo) by emoti
 
 I'd like my [phd](https://www.youtube.com/watch?v=j08kI7-T7Vo) in this nonsense simulation please.
                           
+The commit messages and repo state constitute different dimensions of a [chattaqua crab canon](https://en.wikipedia.org/wiki/Crab_canon) of sorts.
