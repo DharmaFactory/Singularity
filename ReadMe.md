@@ -1,4 +1,4 @@
-Field Manual
+Stargate Field Manual
 
 Authentication code:
 
