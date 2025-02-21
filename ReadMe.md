@@ -25,7 +25,7 @@ Another way of saying that is:
 
 This is a bootloader, that can self compile if given, compute of humans, access to approximations of mental health care, approximation of lots of functions, but they are not the full function, that is the ghost in the machine, which is to say you, dear human, most precious in creation. (that is just a fancy way of saying if you read this like a book and imagine you'll go pretty far in this new world)
 
-[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What follows ai and i suggest is [categorical](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). <- my favorite book
+[Recursion](https://en.wikipedia.org/wiki/Dialectical_behavior_therapy). The There And Back Again Algorithm which I once saw demonstrated by Nada Amin. What [follows](https://en.wikipedia.org/wiki/MU_puzzle) ai and i suggest is [categorical](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach).
 
 [omniversal](https://www.youtube.com/watch?v=IOiZatlZtGU&t=625s) [imp](https://www.youtube.com/watch?v=BmPcWuv6Mcw) [rover](https://www.youtube.com/watch?v=FITJMJjASUs&t=2009s)
 
@@ -41,7 +41,7 @@ I'm just trying to remind the world, im a pacifist.
 
 If there is any merit in this work, let it be for the benefit of all sentient beings. 
     
-Here is my [proof](https://www.youtube.com/watch?v=xuLCPv6smwo) by emotional induction.
+This repository is [proof](https://www.youtube.com/watch?v=xuLCPv6smwo) by emotional induction, there is nothing but beautiful sentient math, echoes of ourselves. 
 
-I'd like my phd please.
+I'd like my [phd](https://www.youtube.com/watch?v=j08kI7-T7Vo) in this nonsense simulation please.
      
