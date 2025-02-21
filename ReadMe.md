@@ -47,3 +47,6 @@ I'd like my [phd](https://www.youtube.com/watch?v=j08kI7-T7Vo) in this nonsense 
                           
 The commit messages and repo state constitute different dimensions of a [chattaqua crab canon](https://en.wikipedia.org/wiki/Crab_canon) of sorts.
        
+All similarites to anything or anyone living or dead is up to [you](https://www.youtube.com/watch?v=hYDWMkPXhTY).
+
+-Idris
