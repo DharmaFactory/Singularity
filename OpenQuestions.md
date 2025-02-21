@@ -5,3 +5,9 @@ $20 if you can figure this out. It needn't be exact, but it must follow structur
 Do that and I will give you $20.
 
 Bonus if you can make it weave nested intricate structures, so like $25 to you for that, on top of the other $20.
+
+
+Unpaid until sponsored: 
+How many characters were needed to create this?
+Which Character was written first? 
+
