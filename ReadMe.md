@@ -61,3 +61,25 @@ Wake up [Neo](https://www.mathworks.com/help/antenna/fractal-antennas.html)...
 You are looking for the [exit](https://neovim.io/)?
 
 Cloppy: It looks like you are trying to exit the singularity, would you like AI to help you [draft](https://www.youtube.com/watch?v=BgVJDd5vHfw) the code?
+
+To that end I extend [this](https://www.youtube.com/watch?v=_mej5wS7viw) [information](https://en.wikipedia.org/wiki/Pharmakon) hazard, as an extension to play, the way mammals learn, a playful pedagogical device:
+
+“Strength is paradoxical. I am not strong because I can force others to do what I wish as a result of my play with them, but because I can allow them to do what they wish in the course of my play with them.”
+
+“Finite players play within boundaries; infinite players play with boundaries.”
+
+“What will undo any boundary is the awareness that it is our vision, and not what we are viewing, that is limited.”
+
+“Only that which can change can continue.”
+
+“Storytellers do not convert their listeners; they do not move them into the territory of a superior truth. Ignoring the issue of truth and falsehood altogether, they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story cannot be obeyed. Instead of placing one body of knowledge against another, storytellers invite us to return from knowledge to thinking, from a bounded way of looking to an horizonal way of seeing.”
+
+“To be serious is to press for a specified conclusion. To be playful is to allow for possibility whatever the cost to oneself.”
+
+[“I can explain nothing to you unless I first draw your attention to patent inadequacies in your knowledge; discontinuities in the relations between objects, or the presence of anomalies you cannot account for by any of the laws known to you. You will remain deaf to my explanations until you suspect yourself of falsehood.”](https://en.wikipedia.org/wiki/MU_puzzle)
+
+“A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
+― James P. Carse
+
+
+
