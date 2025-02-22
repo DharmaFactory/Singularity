@@ -109,7 +109,7 @@
 64n + 49 = IKLIKKK   
 64n + 50 = LIKLHLIK   
 64n + 51 = HLIKKLIK   
-64n + 52 = KLIKKL // 8(2n) + 4 -> 8(4n + 1) + 12 -> 8(8n + 1) + 12   
+64n + 52 = KLIKKL   
 64n + 53 = IKKKKL   
 64n + 54 = LHLIKLHL   
 64n + 55 = HLHLIKKL   
@@ -172,7 +172,7 @@
 128n + 48 = KKKLHLIK   
 128n + 49 = IKLIKKKL   
 128n + 50 = LIKLHLIKK   
-128n + 51 = HLIK K L IK K //    
+128n + 51 = HLIK K L IK K   
 128n + 52 = KLIKKLIK   
 128n + 53 = IKKKKLIK   
 128n + 54 = LHLIKLHLHL   
@@ -237,7 +237,7 @@
 128n + 113 = IKLIKKKK   
 128n + 114 = LIKLHLIKL   
 128n + 115 = HLIKKLIKL   
-128n + 116 = KLIKKLHL //    
+128n + 116 = KLIKKLHL   
 128n + 117 = IKKKKLHL   
 128n + 118 = LHLIKLHLIK   
 128n + 119 = HLHLIKKLIK   
