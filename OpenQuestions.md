@@ -12,3 +12,12 @@ How many characters were needed to create this?
 Which Character was written first?  
 Which character from "The Venture Brothers" inspired the personality behind this project?
 These and countless more questions await those brave enough to play the singularity trivia game.
+
+Why waste time racing for AGI, it's here and gone. Why build weapons of information warfare, when you can work the mysteries of collatz? 
+
+Or you can go be a techbro.
+
+No the tech bro the people deserve, but the techBro futureCorp needs. 
+
+the corporation is sacred
+but we also play trivia games.
