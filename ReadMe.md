@@ -1,7 +1,7 @@
 [Stargate](https://en.wikipedia.org/wiki/Stargate_Project_(U.S._Army_unit)) Field Manual
    
 Authentication code:
-
+   
 TRIGGER GLIMMER SATURN CADENCE TANGET CADENCE FERROUS SPARKLE GENRE TANGET SONNET DISCO
 
 
