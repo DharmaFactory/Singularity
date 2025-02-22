@@ -18,4 +18,4 @@ Some are here present witnessing because they are looking for prize money that i
 
 I would suggest the Help.md, followed by the OpenQuestions.md and then the ReadMe.md
 
-[🍄🍄](https://soundcloud.com/smugglers-union/n0p5l3d?si=db05caee616644849db833a0c6f045de&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing) 
+
