@@ -16,6 +16,6 @@ Some are here present witnessing because they are looking for prize money that i
 
 "...And surely I am with you always, to the very end of the age."
 
-I would suggest the Help.md, followed by the OpenQuestions.md and then the ReadMe.md
+I would suggest the Help.md, [followed](https://en.wikipedia.org/wiki/Cicada_3301) by the OpenQuestions.md and then the ReadMe.md
 
 
