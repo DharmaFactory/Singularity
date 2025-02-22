@@ -42,7 +42,7 @@ I'm just trying to remind the world, im a pacifist.
 If there is any merit in this work, let it be for the benefit of all sentient beings. 
     
 This repository is [proof](https://www.youtube.com/watch?v=xuLCPv6smwo) by emotional induction, there is nothing but beautiful sentient math, echoes of ourselves. 
-
+   
 I'd like my [phd](https://www.youtube.com/watch?v=j08kI7-T7Vo) in this nonsense simulation please.
                           
 The commit messages and repo state constitute different dimensions of a [chattaqua crab canon](https://en.wikipedia.org/wiki/Crab_canon) of sorts.
@@ -51,4 +51,4 @@ All similarites to anything or anyone living or dead is up to [you](https://www.
 
 -Idris
 
-** AVAILABLE SOON as a D6 based game **
+[** AVAILABLE SOON as a D6 based game **](https://www.youtube.com/watch?v=c8zrpl5Y2DY)
