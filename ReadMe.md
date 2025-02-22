@@ -4,6 +4,7 @@ Authentication code:
 
 TRIGGER GLIMMER SATURN CADENCE TANGET CADENCE FERROUS SPARKLE GENRE TANGET SONNET DISCO
 
+
 The following is a work of fiction, any relation to anything real and happening is purely uncanny.
    
 For Hearts long lost and full of fright. For those alone in Blackest Night. Accept our ring and join our fight, Love conquers all with Violet's light!
