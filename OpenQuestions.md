@@ -21,3 +21,29 @@ Not the tech bro the people deserve, but the techBro futureCorp needs.
 
 the corporation is sacred
 but we also play trivia games.
+
+work from home
+
+be your own boss
+
+be truly bold
+
+show them a world without meta
+
+show them a world without microsoft
+
+show them a world your way
+
+show them a world where we can turn it around
+
+show them a world without limits
+
+show them a world set free
+
+show them your story
+
+kill them witth kindness 
+
+[Malachi 3:10-12 "Bring the full tithe into the storehouse, so that there may be food in my house, and thus put me to the test, says the Lord of hosts; see if I will not open the windows of heaven for you and pour down for you an overflowing blessing. I will rebuke the locust for you, so that it will not destroy the produce of your soil; and your vine in the field shall not be barren, says the Lord of hosts. Then all nations will count you happy, for you will be a land of delight, says the Lord of hosts"](https://thegivingblock.com/)
+
+
