@@ -17,7 +17,7 @@ Why waste time racing for AGI, it's here and gone. Why build weapons of informat
 
 Or you can go be a techbro.
 
-No the tech bro the people deserve, but the techBro futureCorp needs. 
+Not the tech bro the people deserve, but the techBro futureCorp needs. 
 
 the corporation is sacred
 but we also play trivia games.
