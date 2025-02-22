@@ -58,3 +58,5 @@ You are an [answer](https://minikanren.org/), in search of a question.
 Wake up [Neo](https://www.mathworks.com/help/antenna/fractal-antennas.html)...
 
 You are looking for the [exit](https://neovim.io/)?
+
+Cloppy: It looks like you are trying to exit the singularity, would you like AI to help you [draft](https://www.youtube.com/watch?v=BgVJDd5vHfw) the code?
