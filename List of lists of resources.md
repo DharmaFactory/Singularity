@@ -2,7 +2,7 @@ Lets play a game of DAPPtivism
 
 https://freeslaves.org/what-we-do/ <-> https://thegivingblock.com/ 
 
-Why aren't these things directly connected and this not being funded by a % of platform / project fee's? @TheWizardsOfOrd
+Why aren't these things directly connected and this not being funded by a % of platform / project fee's?
       
 “Strength is paradoxical. I am not strong because I can force others to do what I wish as a result of my play with them, but because I can allow them to do what they wish in the course of my play with them.” 
 
