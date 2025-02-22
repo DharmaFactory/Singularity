@@ -109,7 +109,7 @@
 64n + 49 = IKLIKKK   
 64n + 50 = LIKLHLIK   
 64n + 51 = HLIKKLIK   
-64n + 52 = KLIKKL
+64n + 52 = KLIKKL   
 64n + 53 = IKKKKL   
 64n + 54 = LHLIKLHL   
 64n + 55 = HLHLIKKL   
