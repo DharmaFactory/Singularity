@@ -1,6 +1,7 @@
 I'm currently running an AI based foundation which is pushing questions into the narrative like:
 
-Can we engage our children in new ways? Co-create pedagogical devices with AI, allow for emergent education and exploration? Can we remove our own egos? 
+Can we engage our children in new ways? Co-create pedagogical devices with AI, allow for emergent education and exploration? Can we remove our own egos?  
+Can we remove our own fears?
 
 The aim of theory really is, to a great extent, that  
 of systematically organizing past experience in  
