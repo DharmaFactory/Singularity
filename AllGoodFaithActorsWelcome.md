@@ -4,7 +4,7 @@ This is non political, this is the singularity, some prompts that might help are
 1) Hi I am {{ however you want to introduce yourself }} I am currently struggling with 
 {{ issue }}, I am aware it might be a compound issue, there are real and perceived 
 aspects, and I may be responding to trauma that is no longer, happening in the now. 
-If I was in immediate danger I would contact he authorities {{{ inser regional help 911 111 etc }}}.
+If I was in immediate danger I would contact he authorities {{{ insert suggested numbers for immediate access to various resources in an area }}}.
 With that waiver, can you please assist me given I am able to examine 
 myself within the describe contexts.
 
