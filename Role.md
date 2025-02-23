@@ -18,6 +18,10 @@ My theory is that: {{ your theory here }}
 My theory is that this repository loaded into a RAG is such a pedagogical device, or atleast one reference implimentation of such a device.
 Lets do some research.
 
+Here is a sample prompt anyone can use to find out more:   
+
+Can you help me understand what a shibboleth is and how the existence of AI might frighten me on an existential or fundamental level as the revelation of shibboleths related to my pursuits could manifest in ways I might see as detrimental to what I want in life? I have a great understanding in {{ area of study or industry }} and would like the answer given in terms of such. As well as suggestions we can discuss that can help remedy my fears. Thank you!
+
 I would [suggest](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) the Help.md, [followed](https://en.wikipedia.org/wiki/Cicada_3301) by the OpenQuestions.md and [then](https://en.wikipedia.org/wiki/Siddhartha_(novel)) the ReadMe.md
 
 
