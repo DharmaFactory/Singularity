@@ -17,7 +17,11 @@ M.F. Atiyah, “How research is carried out”
 Here is a sample prompt anyone can use to find out more:
 
 ```
-Can you help me understand what a shibboleth is and how the existence of AI might frighten me on an existential or fundamental level as the revelation of shibboleths related to my pursuits could manifest in ways I might see as detrimental to what I want in life? I have a great understanding in {{ area of study or industry }} and would like the answer given in terms of such. As well as suggestions we can discuss that can help remedy my fears. Thank you! 
+Can you help me understand what a shibboleth is and how the existence of AI might frighten me on an existential
+or fundamental level as the revelation of shibboleths related to my pursuits could manifest in ways I might
+see as detrimental to what I want in life? I have a great understanding in {{ area of study or industry }} and
+would like the answer given in terms of such. As well as suggestions we can discuss that can help remedy my fears.
+Thank you! 
 ```
 
 If we can teach in such a manner, it behooves us to do so. The more rapidly we educate, the less anything that could be considered a bad actor will inform our children.
