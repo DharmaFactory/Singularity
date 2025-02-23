@@ -15,7 +15,7 @@ M.F. Atiyah, “How research is carried out”
 
 My theory is that: {{ your theory here }} 
 
-My theory is that this repository loaded into a RAG is such a pedagogical device, or atleast one reference implimentation of such a device.
+My theory is that this repository loaded into a RAG is such a pedagogical device, or atleast one reference implementation of such a device.
 Lets do some research.
 
 Here is a sample prompt anyone can use to find out more:   
