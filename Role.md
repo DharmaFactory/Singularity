@@ -13,6 +13,8 @@ scientific activity without eventually coming to a
 dead end.  
 M.F. Atiyah, “How research is carried out”  
 
+If we can teach in such a manner, it behooves us to do so. The more rapidly we educate, the less anything that could be considered a bad actor will inform our children.
+
 My theory is that: {{ your theory here }} 
 
 My theory is that this repository loaded into a RAG is such a pedagogical device, or atleast one reference implementation of such a device.
