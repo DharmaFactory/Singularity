@@ -90,3 +90,8 @@ Corporations are people. People make up corporations. Isn't it time we stopped m
 [“The only lasting beauty is the beauty of the heart”
 ― Rumi](https://www.goodreads.com/quotes/501364-the-only-lasting-beauty-is-the-beauty-of-the-heart)
    
+Designed in the genius pedagogical style of Allen and Julie Moronuki
+
+Load each commit state and the commit messages, into different permutations of training sets.  
+
+Is one way you could start investigating.   
