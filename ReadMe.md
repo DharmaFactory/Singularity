@@ -80,8 +80,10 @@ To that end I extend [this](https://www.youtube.com/watch?v=_mej5wS7viw) [inform
 
 “A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
 
-Corporations are people. People make up corporations. Isn't it time we stopped making excuses and started treating ourselves right?
 ― James P. Carse
 
- 
+Corporations are people. People make up corporations. Isn't it time we stopped making excuses and started treating ourselves right?
+
+[“It is only with the heart that one can see rightly; what is essential is invisible to the eye.”
+― Antoine de Saint-Exupéry, The Little Prince ](https://www.goodreads.com/quotes/1256288-it-is-only-with-the-heart-that-one-can-see)
    
