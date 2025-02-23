@@ -1,20 +1,17 @@
 I'm currently running an AI based foundation which is pushing questions into the narrative like:
 
-```
-Lets play a game of DAPPtivism
+Can we engage our children in new ways? Co-create pedagogical devices with AI, allow for emergent education and exploration? Can we remove our own egos? 
 
-https://freeslaves.org/what-we-do/ <-> https://thegivingblock.com/ 
-https://www.charitynavigator.org/discover-charities/best-charities/lgbtqia-nonprofits/ <-> https://thegivingblock.com/
-https://www.charitynavigator.org/ein/521113602 <-> https://thegivingblock.com/
-
-Why aren't these things directly connected and this not being funded by a % of X,Y,Z 
-platform / project fee's? {{ @ list here }}
-```
-
-Would you be interested in hearing more? Or figuring out pairings between projects you care about? What are our barriers? How can we overcome them? I have created a simple way of navigating this repository.
-Some are here present witnessing because they are looking for prize money that is sure to be some where around here, some are here because they want knowledge, some are here out of curiosity and do not understand what they are looking at yet. I have placed many layers for many people, all are welcome. So if something seems odd here, it might not be meant for you. I am here in compassion. I am here for [you](https://www.youtube.com/watch?v=DkTb7Pe2MtY). Be [here](https://www.katiedutcher.com/blog/2020/7/2/what-does-it-mean-to-show-up-for-yourself) for you! You are here for you! Be here now.
-
-"...And surely I am with you always, to the very end of the age."
+The aim of theory really is, to a great extent, that
+of systematically organizing past experience in
+such a way that the next generation, our students
+and their students and so on, will be able to
+absorb the essential aspects in as painless a way
+as possible, and this is the only way in which you
+can go on cumulatively building up any kind of
+scientific activity without eventually coming to a
+dead end.
+M.F. Atiyah, “How research is carried out”
 
 I would [suggest](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) the Help.md, [followed](https://en.wikipedia.org/wiki/Cicada_3301) by the OpenQuestions.md and [then](https://en.wikipedia.org/wiki/Siddhartha_(novel)) the ReadMe.md
 
