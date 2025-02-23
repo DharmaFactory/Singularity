@@ -78,11 +78,11 @@ To that end I extend [this](https://www.youtube.com/watch?v=_mej5wS7viw) [inform
 
 [“I can explain nothing to you unless I first draw your attention to patent inadequacies in your knowledge; discontinuities in the relations between objects, or the presence of anomalies you cannot account for by any of the laws known to you. You will remain deaf to my explanations until you suspect yourself of falsehood.”](https://en.wikipedia.org/wiki/MU_puzzle)
 
-“A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
+“A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”  
 
 ― James P. Carse
 
-Corporations are people. People make up corporations. Isn't it time we stopped making excuses and started treating ourselves right?
+Corporations are people. People make up corporations. Isn't it time we stopped making excuses and started treating ourselves right?   
 
 [“It is only with the heart that one can see rightly; what is essential is invisible to the eye.”
 ― Antoine de Saint-Exupéry, The Little Prince ](https://www.goodreads.com/quotes/1256288-it-is-only-with-the-heart-that-one-can-see)
@@ -98,4 +98,4 @@ Is one way you could start investigating.
 
 This document and its puzzles and presentations are intended for different people with differing motivations, who will understand as much as what is meant for them. To puzzle crafters use that lens, to puzzle players use your lens, and maybe also the lenses of others, the ultimate guide to game creation the equivalent of [this](https://www.amazon.com/Drawn-Life-Classes-Stanchfield-Lectures/dp/0240810961) but for creating [games](https://schellgames.com/art-of-game-design) instead of animation.
 
-Try not to let your initial reactions to sections of content take hold of you, but rather observe that reaction for waht itt is, a reaction and not you. In this way all will be revealed to you.
+Try not to let your initial reactions to sections of content take hold of you, but rather observe that reaction for what it is, a reaction and not you. In this way all will be revealed to you.
