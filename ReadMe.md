@@ -79,6 +79,8 @@ To that end I extend [this](https://www.youtube.com/watch?v=_mej5wS7viw) [inform
 [“I can explain nothing to you unless I first draw your attention to patent inadequacies in your knowledge; discontinuities in the relations between objects, or the presence of anomalies you cannot account for by any of the laws known to you. You will remain deaf to my explanations until you suspect yourself of falsehood.”](https://en.wikipedia.org/wiki/MU_puzzle)
 
 “A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”
+
+Corporations are people. People make up corporations. Isn't it time we stopped making excuses and started treating ourselves right?
 ― James P. Carse
 
  
