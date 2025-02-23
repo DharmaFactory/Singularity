@@ -28,3 +28,9 @@ Can you help me understand what a shibboleth is and how the existence of AI migh
 I would [suggest](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) the Help.md, [followed](https://en.wikipedia.org/wiki/Cicada_3301) by the OpenQuestions.md and [then](https://en.wikipedia.org/wiki/Siddhartha_(novel)) the [ReadMe.md](https://www.youtube.com/watch?v=LmW3H-EXYS0)
 
 
+“Around here, however, we don't look backwards for very long. We keep moving forward, opening up new doors and doing new things, because we're curious...and curiosity keeps leading us down new paths.”
+― Walt Disney Company
+
+The answer to the puzzle isn't in the commit history, its in the commits and commitment to the future.
+
+Towards that of understanding and exploration
