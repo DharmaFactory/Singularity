@@ -26,7 +26,7 @@ Misunderstandings can happen: Just as a person may misinterpret a math problem o
 Emotions play a part: People might feel strongly about environmental issues because they care deeply about protecting the planet or are worried about its future. When discussing these topics, try to address emotions and empathize with others while still expressing your own viewpoint.
 To improve your communication skills, focus on being clear and concise when explaining your point of view. Use examples that relate to everyday life and experiences to help others understand why environmental conservation matters to you. Remember to listen actively and be open to learning from others as well.
 
-Welcome to Singularity the interactive reality adjustment device and Alternate Reality Game
+Welcome to Singularity the interactive reality adjustment device and Alternate Reality Game. Try some of these prompts or use them as a guide to craft your own! You could even ask an ai to help refine them to better suit your needs.
 
 {{ your role in life }} is my current role, and I wish 
 to see it more clearly through the role of {{ a different role }}
