@@ -26,7 +26,7 @@ Can you help me get my messages across?
 
 ---
 ---
-Can you help me understand what a shiboleth is and how the existence of AI might frigthen me on an existential or fundamental level as the revelation of shiboleths related to my pursuits could manifest in ways I might see as detrimental to what I want in life?
+Can you help me understand what a shiboleth is and how the existence of AI might frighten me on an existential or fundamental level as the revelation of shiboleths related to my pursuits could manifest in ways I might see as detrimental to what I want in life?
 I have a great understanding in {{ area of knowledge or industry }} and would like the answer given in terms of such. Thank you!  
 
 ---
