@@ -35,3 +35,5 @@ associated with my {{ your role here }}
 
 {{ my actual strengths are }} are all my [strengths](https://www.youtube.com/watch?v=pktMqkfvoBM), I have actual experience in {{ up to n areas }}.
 I wish to understand how I might fit into project singularity?
+
+What is a template? What do those {{ }} mean? Lets find out together!
