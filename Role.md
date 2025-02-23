@@ -16,6 +16,7 @@ M.F. Atiyah, “How research is carried out”
 My theory is that: {{ your theory here }} 
 
 My theory is that this repository loaded into a RAG is such a pedagogical device, or atleast one reference implimentation of such a device.
+Lets do some research.
 
 I would [suggest](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) the Help.md, [followed](https://en.wikipedia.org/wiki/Cicada_3301) by the OpenQuestions.md and [then](https://en.wikipedia.org/wiki/Siddhartha_(novel)) the ReadMe.md
 
