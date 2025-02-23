@@ -97,3 +97,5 @@ Load each commit state and the commit messages, into different permutations of t
 Is one way you could start investigating.   
 
 This document and its puzzles and presentations are intended for different people with differing motivations, who will understand as much as what is meant for them. To puzzle crafters use that lens, to puzzle players use your lens, and maybe also the lenses of others, the ultimate guide to game creation the equivalent of [this](https://www.amazon.com/Drawn-Life-Classes-Stanchfield-Lectures/dp/0240810961) but for creating [games](https://schellgames.com/art-of-game-design) instead of animation.
+
+Try not to let your initial reactions to sections of content take hold of you, but rather observe that reaction for waht itt is, a reaction and not you. In this way all will be revealed to you.
