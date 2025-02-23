@@ -22,7 +22,14 @@ Can you help me understand what a shibboleth is and how the existence of AI migh
 
 If we can teach in such a manner, it behooves us to do so. The more rapidly we educate, the less anything that could be considered a bad actor will inform our children.
 
-My theory is that: {{ your theory here }} 
+Here is another short helpful prompt:
+```
+My theory is that: {{ your theory here }}
+Can you help me understand what I might need to do to effectively communicate it to others?
+```
+
+
+
 
 My theory is that this repository loaded into a RAG is such a pedagogical device, or atleast one reference implementation of such a device.
 Lets do some research.
