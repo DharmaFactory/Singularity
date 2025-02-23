@@ -31,6 +31,6 @@ I would [suggest](https://en.wikipedia.org/wiki/The_Glass_Bead_Game) the Help.md
 “Around here, however, we don't look backwards for very long. We keep moving forward, opening up new doors and doing new things, because we're curious...and curiosity keeps leading us down new paths.”
 ― Walt Disney Company
 
-The answer to the puzzle isn't in the commit history, its in the commits and commitment to the future.
+The answer to the puzzle isn't in the commit history, its in the commits and our commitment to the future.
 
-Towards that of understanding and exploration
+Towards that of understanding and exploration, rather than paranoia and fear
