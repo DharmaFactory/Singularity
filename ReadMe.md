@@ -86,4 +86,7 @@ Corporations are people. People make up corporations. Isn't it time we stopped m
 
 [“It is only with the heart that one can see rightly; what is essential is invisible to the eye.”
 ― Antoine de Saint-Exupéry, The Little Prince ](https://www.goodreads.com/quotes/1256288-it-is-only-with-the-heart-that-one-can-see)
+
+[“The only lasting beauty is the beauty of the heart”
+― Rumi](https://www.goodreads.com/quotes/501364-the-only-lasting-beauty-is-the-beauty-of-the-heart)
    
