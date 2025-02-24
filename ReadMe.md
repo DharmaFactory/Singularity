@@ -1,3 +1,5 @@
+“Storytellers do not convert their listeners; they do not move them into the territory of a superior truth. Ignoring the issue of truth and falsehood altogether, they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story cannot be obeyed. Instead of placing one body of knowledge against another, storytellers invite us to return from knowledge to thinking, from a bounded way of looking to an horizonal way of seeing.”
+
 [Stargate](https://en.wikipedia.org/wiki/Stargate_Project_(U.S._Army_unit)) Field Manual
    
 Authentication code:
@@ -71,8 +73,6 @@ To that end I extend [this](https://www.youtube.com/watch?v=_mej5wS7viw) [inform
 “What will undo any boundary is the awareness that it is our vision, and not what we are viewing, that is limited.”
 
 “Only that which can change can continue.”
-
-“Storytellers do not convert their listeners; they do not move them into the territory of a superior truth. Ignoring the issue of truth and falsehood altogether, they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story cannot be obeyed. Instead of placing one body of knowledge against another, storytellers invite us to return from knowledge to thinking, from a bounded way of looking to an horizonal way of seeing.”
 
 “To be serious is to press for a specified conclusion. To be playful is to allow for possibility whatever the cost to oneself.”
 
