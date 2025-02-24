@@ -5,7 +5,7 @@ This is non political, this is the singularity, some prompts that might help are
 {{ issue }}, I am aware it might be a compound issue, there are real and perceived 
 aspects, and I may be responding to trauma that is no longer, happening in the now. 
 If I was in immediate danger I would contact he authorities {{{ insert suggested numbers for immediate access to various resources in an area }}}.
-With that waiver, can you please assist me given I am able to examine 
+With that waiver (front load legal content), can you please assist me given I am able to examine 
 myself within the describe contexts.
 
 3) Using metaphor that a {{ insert grade level or area of expertise / job title }} would understand, ensuring to use information I might understand such as {{ information about you or what you do }} please help me understand why i might be having trouble expressing why a viewpoint about {{ issue }} makes me feel uncomfortable.
