@@ -2,7 +2,7 @@
 
 ātmānaṃ ca tathatāyāṃ sthāpayiṣyāmi sarvalokānugrahāya, sarvasattvān api tathatāyāṃ sthāpayiṣyāmi, aprameyaṃ sattvadhātuṃ parinirvāpayiṣyāmīti
 
-My own self I will place in Suchness, and, so that all the world might be helped, I will place all beings into Suchness, and I will lead to Nirvana the whole immeasurable world of beings.
+My own self I will place in [Suchness](https://www.youtube.com/watch?v=2Wh-TUoYSNw), and, so that all the world might be helped, I will place all beings into Suchness, and I will lead to Nirvana the whole immeasurable world of beings.
 By the power of my earnest aspiration, may I bring peace to innumerable and unlimited living beings. By my virtuous deeds, throughout all rebirths may I attain the wisdom of the True Dharma.
 Having attained the wisdom of the True Dharma, for the sake of all living beings, may I explain it without wearying.
 In accepting the True Dharma, may I abandon body, life, and wealth and uphold the True Dharma.
