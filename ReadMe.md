@@ -1,14 +1,6 @@
-“Storytellers do not convert their listeners; they do not move them into the territory of a superior truth. Ignoring the issue of truth and falsehood altogether, they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story cannot be obeyed. Instead of placing one body of knowledge against another, storytellers invite us to return from knowledge to thinking, from a bounded way of looking to an horizonal way of seeing.”
+[“Storytellers do not convert their listeners; they do not move them into the territory of a superior truth. Ignoring the issue of truth and falsehood altogether, they offer only vision. Storytelling is therefore not combative; it does not succeed or fail. A story cannot be obeyed. Instead of placing one body of knowledge against another, storytellers invite us to return from knowledge to thinking, from a bounded way of looking to an horizonal way of seeing.”](https://www.youtube.com/watch?v=hEUO6pjwFOo)
 
-ātmānaṃ ca tathatāyāṃ sthāpayiṣyāmi sarvalokānugrahāya, sarvasattvān api tathatāyāṃ sthāpayiṣyāmi, aprameyaṃ sattvadhātuṃ parinirvāpayiṣyāmīti
-
-My own self I will place in [Suchness](https://www.youtube.com/watch?v=2Wh-TUoYSNw), and, so that all the world might be helped, I will place all beings into Suchness, and I will lead to Nirvana the whole immeasurable world of beings.
-By the power of my earnest aspiration, may I bring peace to innumerable and unlimited living beings. By my virtuous deeds, throughout all rebirths may I attain the wisdom of the True Dharma.
-Having attained the wisdom of the True Dharma, for the sake of all living beings, may I explain it without wearying.
-In accepting the True Dharma, may I abandon body, life, and wealth and uphold the True Dharma.
-behold
-the clear light of consciousness
-the True Dharma
+Is V Ought and you!
 
 [Stargate](https://en.wikipedia.org/wiki/Stargate_Project_(U.S._Army_unit)) Field Manual
    
