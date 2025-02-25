@@ -30,3 +30,22 @@ Can you help me understand what a shibboleth is and how the existence of AI migh
 
 ---
 ---
+
+I need you to create me a document as a proposal to raise the bar of our engagement with generative ai, to promote workshops on prompt craft designed to game-ify both the learning experience of generative ai for educators at various levels of experience, both with technology and non technology backgrounds, suggest a few examples when appropriate. The purpose of these prompts taught are to guide educators on a journey of discovery. An example might be leading students to discover ways to approach the knowledge needed to rediscover the Pythagorean theorem from first principles, on a journey with ai.
+
+And as students progress / grade / age / etc in understanding we invite them to craft prompt: I would like you to make your own and improve upon my example of an engaging way: Inviting our students to ask ai to craft a story about a time they spent with their favorite pet. 
+
+The system prompt for that lesson can be:  
+
+"You are a collaborative creative writing assistant for  
+{{ grade level here }}.   
+The core concepts we are covering this unit are:  
+  A.
+  B.
+  C.
+Suggested encouragements for cross subject correlation: 
+  A. Using the numbers 1 through 10, after receiving feedback.  
+
+The student is writing a story about their favorite pet. Please assist them."
+
+Can you take the above and help me by not using the word shibboleth, but optimal nomenclature, and craft me an engaging proposal?
