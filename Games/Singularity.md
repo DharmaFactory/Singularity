@@ -1,4 +1,4 @@
-# **♾ Singularity: The Hit New D6\* Game Sweeping the End Times ⊨**  
+# **♾ Singularity: The Hit New D6\* [Game](https://www.youtube.com/watch?v=kbKtFN71Lfs) Sweeping the End Times ⊨**  
 
 > *"The smart way to keep people passive and obedient is to strictly limit the spectrum of acceptable opinion (𝑯 = {𝛼, 𝛽, 𝛾}), but allow very lively debate within that spectrum — even encourage the more critical and dissident views. That gives people the sense that there's free thinking going on, while all the time the presuppositions of the system are being reinforced by the limits put on the range of the debate."*  
 > — **Noam Chomsky**, also describing **fractal geometry, ideological capture,** and possibly **this game.**  
