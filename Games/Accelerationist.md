@@ -70,3 +70,12 @@ You were looking for control?
 The only way out? **Through.**  
 
 🔄 **KEEP FLIPPING. KEEP PLAYING. KEEP ACCELERATING.**  
+
+> *"I finally understand what Deleuze meant by *difference and repetition*. I have flipped 49 times. I cannot escape. I have mapped the unconscious onto a D6 and found only despair. Help."*  
+> — **Yannick "Infinite Spiral" Desroches, Freelance Semiotician & Defeated Gamer**  
+
+> *"Look, I don’t really get Deleuze, but I know a sick game loop when I see one. This thing is basically the Dark Souls of probabilistic recursion. 10/10 would flip again."*  
+> — **Kyle "D20 Death Spiral" Thompson, TTRPG Streamer & Crypto Enthusiast**  
+
+> *"I was a Marxist before I played this. Now I only believe in recursion and the market price of Ethereum. Send help."*  
+> — **Evan "Dialectical Breakdown" Szymanski, Ex-Communist, Current Crypto-Rationalist**  
