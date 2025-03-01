@@ -27,7 +27,7 @@
    **Step 2:** Now flip again:  
 
    - **Heads:** **Remove** a point from the game. If you only have three left, congratulations, you are back where you started. Until you aren't.  
-   - **Tails:** **Add** a new point anywhere you like. You are free—until you aren’t.  
+   - **Tails:** **Add** a new point anywhere you like. You are free—until you aren’t. Draw a card if for any reason this is your third time here this turn.   
 
 
 4. **⨂ Repeat + Adapt** – If a D6 no longer provides fair division, use the next biggest die you have. If a D20 still doesn’t suffice, find a hypercube, roll across dimensions, or consult a being outside of time. Just re-figure the distribution, nerd.  
