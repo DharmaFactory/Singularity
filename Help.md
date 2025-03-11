@@ -137,7 +137,7 @@ Or better: **Let’s keep it sentient.**
 
 ## 💰 TIPS & SUPPORT
 ETH: **0x275608E6641aac66288F7d1dB710f58714Ec08AA**  
-
+DOGECOIN: DLH5kWh6wuEWQx38ef9D6hggChR5exHNQu
 ---
 
 ## 🎭 FINAL WORDS
