@@ -53,5 +53,6 @@ You are the answer, seeking a question.
 
 You are looking for the **exit**?  
 
-**Cloppy:** *It looks like you are trying to exit the singularity. Would you like AI to help you draft the code?*  
+**📎:** *It looks like you are trying to exit the singularity. Would you like AI to help you draft the code?*  
+**📎:** *`tr -d 'lost' <<< 'I am lost'`*  
 
