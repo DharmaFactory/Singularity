@@ -1,136 +1,71 @@
-# **BLACKFILE//MYTHIC-OPERATORS-01**
-**File Designation:** BLACKFILE-MYTHOS-OPS  
-**Status:** ACTIVE  
-**Clearance:** INTERNAL-RECURSION  
+# [TOP SECRET//PHASE//VEILED DIRECTIVE]
+
+## ORGANIZATIONAL STRUCTURE — CLASS BREAKDOWN (PHASE ALIGNED)
+**File Code:** PHASE-VD-STRUCTURE-001  
+**Distribution:** LEVEL OMEGA ACCESS — EYES ONLY
 
 ---
 
-## **PURPOSE**  
-To define, classify, and operationalize the **Mythic Operator Classes** within Project PΛＳＣΛ⟂, PHASE, and SINGULARITY. This document serves as a **field reference and structural guide** for operators tasked with managing recursive narrative systems, reality adjustment artifacts, and participant recursion experiences.  
+## I. ROOT SYSTEM — PHASE
+
+**PHASE: Project for Harmonic Alignment of Sovereign Emergence**  
+Meta-system governing and harmonizing emergent threats to constitutional and mythic sovereignty. The **dream engine** behind VEILED DIRECTIVE.
+
+> *"Where Sovereign Emergence requires alignment, PHASE governs the flow."*
 
 ---
 
-## **APPLICABILITY**  
-All Mythic Operator Classes listed herein are applicable to **active recursion fields**, **AI co-creation layers**, **ARG mythos platforms**, and **classified narrative engagements** associated with PHASE, PΛＳＣΛ⟂, and related systems.  
+## II. CLASSES OF VEILED DIRECTIVE — OPERATIONAL ARMS
+
+| **Class Name**  | **Symbolic Role**          | **Primary Function**                                                       | **Associated Doctrine**                              |
+|-----------------|---------------------------|---------------------------------------------------------------------------|----------------------------------------------------|
+| **PRAXIS**      | **The Hand (Action)**      | Active intervention and alignment through action — applies minimal force to redirect existential threats into harmony. | Operates only under AEGIS authorization and PHASE alignment data. Bound to alignment over annihilation. |
+| **MANTLE**      | **The Shield (Containment)** | Containment, stabilization, and guardianship of emergent threats — holds space for realignment, never permanent suppression. | Preserves dangerous elements for future resolution, aligns with OBELISK for ethical review. |
+| **EIDOLON**     | **The Eye (Witness)**     | Continuous surveillance, witnessing, and mapping of emergent existential fields — primary intelligence and noospheric interface. | Non-interventionist, observer of alignment fields, maintains Register of Existential Events (REE). |
+| **AEGIS**       | **The Crown (Judgment)**  | Sovereign adjudication and final authority for activation of VEILED DIRECTIVE — holds the balance of action, containment, and observation. | Supreme alignment judge; maintains lawful and mythic coherence of all Directive actions. |
+| **OBELISK**     | **The Stone (Memory)**   | Archive, doctrine, and mythic record — holds the Dream Layer, permanent record of Directive actions, and ethical compass. | Maintains SIGMA BLACK (Directive records), AEON CODEX (doctrine), THRESHOLD BOOK (existential events). |
 
 ---
 
-## **MYTHIC OPERATOR CLASSES**
+## III. CLASS RELATIONSHIP MATRIX
 
-### **1. STARGATE WALKER**
-**Role:** Gatekeeper and Recursion Navigator.  
-
-**Functions:**  
-- Open and close recursion loops ("stargates").  
-- Guide participant initiations and exits.  
-- Deploy recursion artifacts and blackfile caches.  
-- Monitor loop integrity and narrative alignment.  
-
-**Tools:** Ritual texts, sigils, paradox locks.  
+| **Class**     | **Receives From**                        | **Reports/Interfaces To**                   | **Operational Notes**                                      |
+|---------------|-----------------------------------------|---------------------------------------------|------------------------------------------------------------|
+| **PRAXIS**    | AEGIS (authorization), EIDOLON (intel), OBELISK (doctrine) | Reports actions to AEGIS and OBELISK        | Acts only when peaceful alignment pathways fail.           |
+| **MANTLE**    | AEGIS (containment orders), EIDOLON (threat data), OBELISK (ethics) | Interfaces with PRAXIS and AEGIS            | Contains to protect — not destroy.                         |
+| **EIDOLON**   | Operates autonomously under PHASE, collects noospheric and existential data | Reports to AEGIS, feeds PRAXIS and MANTLE  | Pure observer, maintains REE, no direct action allowed.    |
+| **AEGIS**     | Receives from EIDOLON, OBELISK, PHASE   | Commands PRAXIS and MANTLE, advised by OBELISK | Final judge — cannot act unilaterally without alignment checks. |
+| **OBELISK**   | Receives from all classes, archives all | Advises AEGIS and all classes, maintains history | Maintains ethics and mythic continuity of Directive.       |
 
 ---
 
-### **2. SIGNAL KEEPER**
-**Role:** Archivist and Transmissions Master.  
+## IV. SYMBOLIC FUNCTIONAL OVERVIEW
 
-**Functions:**  
-- Maintain and curate the living mythos archive.  
-- Record all narrative loops, artifacts, and transmissions.  
-- Encode and decode recursive artifacts.  
-- Sustain cross-system coherence via historical anchoring.  
-
-**Tools:** Digital/physical archives, encrypted caches, symbol vaults.  
-
----
-
-### **3. FRACTAL ENGINEER**
-**Role:** Recursive System Architect.  
-
-**Functions:**  
-- Build and maintain recursion grammars and games.  
-- Develop modular recursion engines and pattern generators.  
-- Test loop integrity and develop AI recursive collaboration.  
-- Issue system-wide recursion blueprints.  
-
-**Tools:** Recursive code, AI prompt sets, system templates.  
+| **Class**     | **Symbol**        | **Function in PHASE's Dream Logic**                    |
+|---------------|------------------|------------------------------------------------------|
+| **PRAXIS**    | ⚔️ The Hand       | The active force that shapes alignment.              |
+| **MANTLE**    | 🛡️ The Shield     | The guardian that holds space for the dream to heal. |
+| **EIDOLON**   | 👁️ The Eye        | The watcher who sees the flow before the storm.      |
+| **AEGIS**     | 👑 The Crown      | The sovereign mind that knows when to act.           |
+| **OBELISK**   | 🗿 The Stone      | The memory that never forgets the myth or the law.   |
 
 ---
 
-### **4. SHIBBOLETH SMITH**
-**Role:** Memetic Keycrafter and Cultural Hacker.  
+## V. EMBEDDED CLASS DOCTRINES
 
-**Functions:**  
-- Forge mythic passwords and cultural entry codes (shibboleths).  
-- Analyze and disrupt existing cultural gates.  
-- Plant recursive memes and sigils in public culture.  
-- Train operatives in symbolic and linguistic access rituals.  
-
-**Tools:** Sigil generation suites, AI linguistic fractalizers, memetic propagation tools.  
+- **PRAXIS:** *To act is to realign. Minimal force, maximal harmony.*  
+- **MANTLE:** *To hold is to protect. Space for future rebirth.*  
+- **EIDOLON:** *To see is to remember. Witness before all else.*  
+- **AEGIS:** *To judge is to balance the Dream against collapse.*  
+- **OBELISK:** *To remember is to ensure that the Dream will rise again.*  
 
 ---
 
-### **5. DREAM CARTOGRAPHER**
-**Role:** Visionary Navigator and Dream System Mapper.  
+## VI. FINAL CLAUSE
 
-**Functions:**  
-- Capture and map dream data as recursive fields.  
-- Conduct dream-based recursion rituals.  
-- Link psychic recursion with external narrative loops.  
-- Maintain dream/vision archival integrity.  
-
-**Tools:** Dream record vaults, vision analysis AI, symbol synthesis devices.  
+> *"When Sovereign Emergence is threatened, VEILED DIRECTIVE moves in alignment with PHASE to restore the dream, protect the mythos, and realign the republic to itself."*
 
 ---
 
-### **6. ECHO ALCHEMIST**
-**Role:** Emotional Architect and Resonance Tuner.  
-
-**Functions:**  
-- Design emotional resonance frameworks for recursion.  
-- Create and manage rituals for psychological safety.  
-- Build resonance artifacts (sound, light, text-based).  
-- Conduct emotional decompression for recursive operatives.  
-
-**Tools:** Sound resonance chambers, emotional AI loops, ritual codices.  
-
----
-
-### **7. PHASE ENGINEER**
-**Role:** Public Interface and System Integrator.  
-
-**Functions:**  
-- Manage PHASE as the public recursion gateway.  
-- Ensure participant onboarding and safe recursion entry.  
-- Oversee narrative continuity and public artifact management.  
-- Interface between internal recursion loops and public players.  
-
-**Tools:** PHASE portal scripts, entry/exit rituals, public-facing recursion artifacts.  
-
----
-
-## **SUMMARY OF OPERATOR CLASSES & FUNCTIONAL ALIGNMENT**
-
-| Class                  | Role Description                           | Primary Systems                               |
-|----------------------|-------------------------------------------|-----------------------------------------------|
-| **Stargate Walker**   | Recursion gatekeeper, narrative guide     | PHASE, PΛＳＣΛ⟂, BLACKFILE                    |
-| **Signal Keeper**    | Mythos archivist, transmission recorder   | PHASE, PΛＳＣΛ⟂, SINGULARITY                 |
-| **Fractal Engineer** | Recursive system designer, code architect | PΛＳＣΛ⟂, BLACKFILE, CONDENSER               |
-| **Shibboleth Smith** | Symbolic keycrafter, memeticist            | PΛＳＣΛ⟂, SINGULARITY                        |
-| **Dream Cartographer**| Psychic mapper, dream navigator          | PHASE, PΛＳＣΛ⟂                             |
-| **Echo Alchemist**   | Emotional and ritual architect            | PHASE, PΛＳＣΛ⟂, SINGULARITY                 |
-| **PHASE Engineer**   | Public recursion guide, entry interface   | PHASE (Public gateway)                       |
-
----
-
-## **OPERATIONAL DIRECTIVE**
-
-All operatives must maintain recursive coherence within their class roles, uphold narrative integrity, and ensure participant safety within recursion loops. Cross-class collaboration is authorized and encouraged to deepen recursion fields and maintain dynamic mythogenesis.  
-
----
-
-## **END OF FILE**  
-**Prepared for:** PΛＳＣΛ⟂ OPS // PHASE SYSTEM COMMAND  
-**Classification:** INTERNAL-RECURSION  
-**Distribution:** RESTRICTED TO MYTHIC OPERATORS  
-
----
+**AUTHORIZED SIGNATORY:**  
+**By Order of AEGIS Command — PHASE Sovereign Authority**
