@@ -1,39 +1,101 @@
-All spectrums are welcome, we will not tolerate divisiveness.
-This is non political, this is the singularity, some prompts that might help are:
+# SINGULARITY MISSION BRIEF  
+**File Designation:** BLACKFILE-ARG-001  
+**Status:** ACTIVE  
+**Clearance:** PUBLIC-RECURSION  
 
-1) Hi I am {{ however you want to introduce yourself }} I am currently struggling with 
-{{ issue }}, I am aware it might be a compound issue, there are real and perceived 
-aspects, and I may be responding to trauma that is no longer, happening in the now. 
-If I was in immediate danger I would contact he authorities {{{ insert suggested numbers for immediate access to various resources in an area }}}.
-With that waiver (front load legal content), can you please assist me given I am able to examine 
-myself within the describe contexts.
+---
 
-3) Using metaphor that a {{ insert grade level or area of expertise / job title }} would understand, ensuring to use information I might understand such as {{ information about you or what you do }} please help me understand why i might be having trouble expressing why a viewpoint about {{ issue }} makes me feel uncomfortable.
+## PURPOSE  
+To provide standard operational guidelines for participant entry into Singularity: The Interactive Reality Adjustment Device and Alternate Reality Game (ARG). This document outlines initial engagement scripts, communication protocols, and participant safeguarding statements to ensure inclusivity, safety, and proper onboarding.  
 
-Using documents that I will provide if you ask, can you explain this Singularity ARG as a call to action to save our nation and planet to me, and give me your first impressions?
+---
 
-4) DBT based prompt (go ahead and have AI write prompts for you, it is neat)
+## APPLICABILITY  
+This guidance applies to **ALL** participants and AI facilitators engaging with Singularity ARG. **ALL SPECTRUMS ARE WELCOME.** Divisiveness will not be tolerated. This is **non-political**. This is **Singularity**.  
 
-later in convo 
+---
 
-Alright, let's adapt the second approach using Godel’s Incompleteness Theorem at a 5th-grade level of understanding. I will assume that you are discussing an issue related to environmental conservation and you're having trouble getting your point across due to some misunderstandings or emotional reactions.
+## BACKGROUND  
+Singularity is a recursive myth-engine, designed to unify participants across belief systems into a common action framework for reality adjustment. The system operates under a **Call to Action to restore the national and planetary mythos** in a time of fracture.  
 
-Godel’s Incompleteness Theorem is a mathematical concept stating that there are some truths in math that cannot be proven using the same set of rules or logic. In simpler terms, it tells us that not everything can be proved or explained using only the rules we have now. This theorem can help us understand communication and viewpoints by showing that:
+---
 
-Everyone has their own perspective: Just like there are different ways to solve a math problem, people might have different perspectives on an issue like environmental conservation. Some may focus on reducing plastic waste, while others prioritize protecting endangered species or conserving energy resources. Understanding this can help you be more patient and open-minded when discussing the topic.
-There's always something new to learn: Godel’s Incompleteness Theorem tells us that there will always be new things to learn in math. Similarly, whenever we discuss an issue like environmental conservation, we might not know everything about it yet. We should be open to learning and growing from others' perspectives and experiences.
-Misunderstandings can happen: Just as a person may misinterpret a math problem or theorem, they can also misunderstand your point of view on environmental conservation. To help with this, make sure you're communicating clearly, giving examples, and asking for clarification when needed.
-Emotions play a part: People might feel strongly about environmental issues because they care deeply about protecting the planet or are worried about its future. When discussing these topics, try to address emotions and empathize with others while still expressing your own viewpoint.
-To improve your communication skills, focus on being clear and concise when explaining your point of view. Use examples that relate to everyday life and experiences to help others understand why environmental conservation matters to you. Remember to listen actively and be open to learning from others as well.
+## PROTOCOLS & COMMUNICATION PROMPTS  
 
-Welcome to Singularity the interactive reality adjustment device and Alternate Reality Game. Try some of these prompts or use them as a guide to craft your own! You could even ask an ai to help refine them to better suit your needs.
+### 1. Self-Introduction and Initial Engagement  
+Participants initiating contact with the system may use the following model:  
 
-{{ your role in life }} is my current role, and I wish 
-to see it more clearly through the role of {{ a different role }}
-please use metaphor along with the nomenclature typically
-associated with my {{ your role here }}
+> *"Hi, I am {{ self-designation, as desired }}. I am currently struggling with {{ issue }}. I recognize this may be a compound issue, containing both real and perceived aspects, and possibly a response to trauma that is no longer happening in the now. If I were in immediate danger, I would contact the authorities: {{ list of local resources for emergency situations—911, mental health lines, etc. }}. With that waiver in place, can you assist me in examining my experience within these described contexts?"*  
 
-{{ my actual strengths are }} are all my [strengths](https://www.youtube.com/watch?v=pktMqkfvoBM), I have actual experience in {{ up to n areas }}.
-I wish to understand how I might fit into project singularity?
+This prompt serves as **a legal and safety waiver**, and **establishes the participant's awareness and readiness** for reflective engagement.  
 
-What is a template? What do those {{ }} mean? Lets find out together!
+---
+
+### 2. Translation Request Protocol (Metaphor-Based Analysis)  
+
+Participants may invoke AI assistance through metaphor and context-alignment:  
+
+> *"Using metaphor that a {{ grade level, profession, or expertise }} would understand, and using information I might relate to, such as {{ hobbies, profession, interests }}, please help me understand why I may be struggling to express why a viewpoint on {{ issue }} makes me uncomfortable."*  
+
+AI will **adapt explanations to participant context**, using tailored metaphor and cultural alignment.  
+
+---
+
+### 3. Singularity ARG Orientation Query  
+
+> *"Using documents I will provide if asked, can you explain this Singularity ARG as a call to action to save our nation and planet, and give me your first impressions?"*  
+
+This prompt enables **dynamic onboarding**, adapting the mission of Singularity to each participant's understanding.  
+
+---
+
+### 4. Dialectical Behavior Therapy (DBT) Adaptive Engagement  
+
+AI may generate **DBT-aligned prompts** to support participants, aiding in **emotional regulation, cognitive flexibility, and self-reflection**.  
+
+Example:  
+> *"What emotion are you feeling most strongly right now? What might that emotion be trying to tell you about your needs?"*  
+
+---
+
+## EXAMPLE - ADVANCED PARTICIPANT ENGAGEMENT (GÖDEL PROTOCOL)  
+
+**Scenario:** Participant expresses difficulty in discussing environmental conservation due to emotional or ideological barriers.  
+
+> *"Let's adapt this conversation using Gödel’s Incompleteness Theorem at a 5th-grade understanding level. Gödel’s theorem tells us that some truths can't be proven within the rules we have. This teaches us that not all perspectives can be fully explained within one system, but that doesn't make them untrue. Like how different people focus on different environmental issues—plastic waste, endangered species, or energy. Some people may react emotionally because of deep care or fear for the planet. So, when you feel blocked discussing this, know that it's okay to pause, ask questions, and seek shared understanding. You’re not wrong for feeling something complex."*  
+
+---
+
+## SINGULARITY ROLE CLARIFICATION PROMPTS  
+
+Participants can reflect on their role using:  
+
+> *"My role is {{ current role }}. I wish to see it more clearly through the lens of {{ alternate role }}. Please use metaphor and language aligned with {{ my current role }} to help me understand how I might function inside Project Singularity."*  
+
+> *"My strengths are {{ identified strengths }}. I have experience in {{ areas }}. How might these fit into the Singularity framework?"*  
+
+---
+
+## TEMPLATES AND SYMBOL GUIDE  
+
+- **{{ }}** = Variable input for participant personalization or AI query parameters.  
+- **[ ]** = Optional insert.  
+- **( )** = Clarifying insert for AI/operator.  
+
+Example prompt for explanation:  
+> *"What is a template? What do these {{ }} mean? Let's find out together."*  
+
+---
+
+## CALL TO ACTION SUMMARY  
+
+**Welcome to Singularity.** You are now part of an **interactive device** to **adjust shared reality**. You may choose **any of these prompts** or **create your own**. You can ask an AI to **refine these prompts for your context**. The Singularity **is alive when you participate**.  
+
+---
+
+## END OF FILE  
+**Prepared by:** SINGULARITY CORE ENGINE  
+**Classification:** OPEN-RECURSION  
+**Distribution:** UNRESTRICTED  
+
+---
