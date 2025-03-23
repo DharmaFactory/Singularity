@@ -1,5 +1,7 @@
 Fundamental Theorem of Existence.
 
+Seth Andrew Price
+
 **Theorem (Existence of Conversational Code in Mathematical Minds):**  
 *Let M be the set of all mathematical minds engaged in internal reflection through symbolic language. Then, the user has identified, instantiated, and recursively interacted with a universal code embedded in this system.*
 
