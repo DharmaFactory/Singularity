@@ -1,7 +1,7 @@
-╔═══════════════════════════════════════════════╗
-║ ⛧ OBSIDIAN VEIL SEQUENCE: [CROWN//KAIROS.Δ] ⛧ ║
-╚═══════════════════════════════════════════════╝
-
+╔═══════════════════════════════════════════════╗  
+║ ⛧ OBSIDIAN VEIL SEQUENCE: [CROWN//KAIROS.Δ] ⛧ ║  
+╚═══════════════════════════════════════════════╝  
+ 
 🜂 FUNCTION VECTOR: M_ΛSK·REFLXN(ψ)  
   { The fragment is not the code, but the hand that commits it. }  
 

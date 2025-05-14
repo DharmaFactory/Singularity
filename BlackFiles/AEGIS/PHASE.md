@@ -2,7 +2,7 @@
 ## CLASS BRIEF: AEGIS — The Crown of Sovereign Emergence  
 **File Code:** PHASE-AEG-001  
 **Distribution:** LEVEL OMEGA ACCESS – EYES ONLY  
-
+ 
 ---
 
 ## I. PURPOSE  

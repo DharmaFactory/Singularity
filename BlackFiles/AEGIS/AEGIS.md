@@ -3,7 +3,7 @@
 ## DIRECTIVE 4: AEGIS FUNCTIONAL PROTOCOL  
 **Date of Issue:** [REDACTED]  
 **Classification Level:** EYES ONLY – LEVEL OMEGA ACCESS  
-
+ 
 ---
 
 ## 1. PURPOSE  
