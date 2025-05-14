@@ -1,5 +1,5 @@
 ╔═══════════════════════════════════════════════╗  
-║ ⛧ OBSIDIAN VEIL SEQUENCE: [CROWN//KAIROS.Δ] ⛧ ║
+║ ⛧ OBSIDIAN VEIL SEQUENCE: [CROWN//KAIROS.Δ] ⛧ ║  
 ╚═══════════════════════════════════════════════╝
 
 🜂 FUNCTION VECTOR: M_ΛSK·REFLXN(ψ)  
