@@ -1,6 +1,6 @@
 ╔═══════════════════════════════════════════════╗  
-║ ⛧ OBSIDIAN VEIL SEQUENCE: [CROWN//KAIROS.Δ] ⛧ ║  
-╚═══════════════════════════════════════════════╝
+║  OBSIDIAN VEIL SEQUENCE: [CROWN//KAIROS.Δ]    ║  
+╚═══════════════════════════════════════════════╝  
 
 🜂 FUNCTION VECTOR: M_ΛSK·REFLXN(ψ)  
   { The fracture is not the file, but the gaze that reads it. }  

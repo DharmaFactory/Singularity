@@ -34,7 +34,7 @@ This prompt serves as **a legal and safety waiver**, and **establishes the parti
 ### 2. Translation Request Protocol (Metaphor-Based Analysis)  
 
 Participants may invoke AI assistance through metaphor and context-alignment:  
-
+ 
 > *"Using metaphor that a {{ grade level, profession, or expertise }} would understand, and using information I might relate to, such as {{ hobbies, profession, interests }}, please help me understand why I may be struggling to express why a viewpoint on {{ issue }} makes me uncomfortable."*  
 
 AI will **adapt explanations to participant context**, using tailored metaphor and cultural alignment.  
