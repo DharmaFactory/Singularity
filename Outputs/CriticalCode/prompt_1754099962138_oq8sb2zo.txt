@@ -1,0 +1,182 @@
+Below is an approach for a gig-economy “true hourly wage” calculator, plus an explanation of the logic and why it matters. The goal is to capture the full economic reality of platform work: the paid minutes are only a slice of the day; workers shoulder costs once borne by employers; and platforms use “flexibility” to mask the shift of risk and cost.
+
+Core idea
+We compute an effective hourly wage by dividing net earnings (gross pay minus all expenses, taxes, depreciation, and overhead) by total time worked (both paid and unpaid). This reframes gig income from “pay per task” to “pay per hour of life consumed.”
+
+Algorithm design
+Inputs per period (day/week/month):
+- Gross_earnings: Total pay received from platforms (fares, tips, bonuses).
+- Paid_time_hours: Time actively earning (on-trip, accepted tasks).
+- Unpaid_time_hours: All unpaid labor (waiting, driving to hotspots, app juggling, support messages, returns).
+- Platform_fees: Commissions, service fees, “safety” fees deducted by the platform.
+- Direct_expenses:
+  - Fuel_cost
+  - Maintenance_cost (oil, tires, brakes; apportioned)
+  - Depreciation_cost (mileage-based or time-based)
+  - Insurance_cost (auto/commercial)
+  - Phone_plan_cost and Data_usage_cost (portion used for work)
+  - Equipment_cost (car mounts, thermal bags, chargers)
+  - Parking_tolls_tickets (work-related)
+  - Car_wash_cleaning (for rideshare)
+- Taxes_and_benefit_replacement:
+  - Self_employment_tax_estimate (employer side of payroll taxes shifted to worker)
+  - Income_tax_estimate
+  - Health_insurance_premium (if tied to work reality)
+  - Paid_leave_value (foregone sick/vacation, if you want to impute)
+  - Retirement_contribution_target (employer match replacement)
+- Other overhead:
+  - Accounting_software or tax prep
+  - Legal, licensing
+  - Safety gear, PPE
+  - Training time cost (learning the app, deactivation appeals, background checks)
+
+Outputs:
+- Total_time_hours = Paid_time_hours + Unpaid_time_hours
+- Total_expenses = Platform_fees + Direct_expenses + Taxes_and_benefit_replacement + Other_overhead
+- Net_income = Gross_earnings - Total_expenses
+- Effective_hourly_wage = Net_income / Total_time_hours
+
+Optional diagnostics:
+- Expense_share = Total_expenses / Gross_earnings
+- Unpaid_time_share = Unpaid_time_hours / Total_time_hours
+- Breakeven_rate = Total_expenses / Paid_time_hours (how much per paid hour needed to cover costs)
+- Risk_buffer_needed = rolling reserve to cover idle weeks, deactivations, car failure
+- Wear_and_tear_rate per mile and per hour for sensitivity analysis
+
+Reference values for defaults (adjust to locale and user data):
+- Depreciation per mile: use IRS standard mileage rate or local equivalent as an upper bound; or split into fuel + maintenance + depreciation separately if you track each.
+- Self-employment tax: approximate employer-share payroll taxes (e.g., 7.65% in the US) plus any locality specifics.
+- Health insurance: monthly premium prorated to hours worked if gig is primary job.
+- Paid leave replacement: add e.g., 4–8% of gross as a proxy for vacation/sick time.
+- Retirement replacement: e.g., 3–5% of gross if you want to emulate an employer match.
+
+Pseudocode with embedded commentary
+
+function computeTrueHourlyWage(inputs):
+    # In gig platforms, "flexibility" is sold as a perk while shifting employer costs to workers:
+    # tools, time between jobs, and risk of idle periods. This redistributes value from labor to capital
+    # while presenting the worker as an "entrepreneur." The calculator restores a wage-like lens.
+
+    gross = inputs.gross_earnings
+
+    # Paid vs. unpaid time: Platforms only count on-trip minutes as "work."
+    # But waiting, repositioning, app multi-tasking, and support tasks are labor, too.
+    paid_hours   = inputs.paid_time_hours
+    unpaid_hours = inputs.unpaid_time_hours
+    total_hours  = paid_hours + unpaid_hours
+
+    # Platform fees are an obvious skim, but the subtler shift is that workers now internalize
+    # the entire production function: capital costs (car/phone), maintenance, insurance, and
+    # even back-office functions once done by employers (scheduling, tax withholding).
+    platform_fees = inputs.platform_fees
+
+    # Direct operating costs: record them explicitly to counter the illusion that "gross" is income.
+    fuel                  = inputs.fuel_cost
+    maintenance           = inputs.maintenance_cost
+    depreciation          = inputs.depreciation_cost
+    insurance             = inputs.insurance_cost
+    phone_and_data        = inputs.phone_plan_cost + inputs.data_usage_cost
+    equipment             = inputs.equipment_cost
+    parking_tolls_tickets = inputs.parking_tolls_tickets
+    cleaning              = inputs.car_wash_cleaning
+
+    # Taxes and benefits: under "independent contractor" status, workers pay the employer side of payroll taxes,
+    # buy their own health insurance, forgo paid leave, and lack retirement matches—classic cost externalization.
+    self_employment_tax   = inputs.self_employment_tax_estimate
+    income_tax            = inputs.income_tax_estimate
+    health_insurance      = inputs.health_insurance_premium
+    paid_leave_value      = inputs.paid_leave_value
+    retirement_repl       = inputs.retirement_contribution_target
+
+    # Additional overhead. The platform calls you "independent" yet controls price, access to customers,
+    # and performance metrics—exerting managerial power without employer obligations.
+    accounting            = inputs.accounting_cost
+    legal_licensing       = inputs.legal_licensing_cost
+    safety_ppe            = inputs.safety_ppe_cost
+    training_time_cost    = inputs.training_time_cost
+
+    direct_expenses = (
+        platform_fees + fuel + maintenance + depreciation + insurance
+        + phone_and_data + equipment + parking_tolls_tickets + cleaning
+    )
+
+    benefits_and_taxes = (
+        self_employment_tax + income_tax + health_insurance
+        + paid_leave_value + retirement_repl
+    )
+
+    overhead = accounting + legal_licensing + safety_ppe + training_time_cost
+
+    total_expenses = direct_expenses + benefits_and_taxes + overhead
+
+    net_income = gross - total_expenses
+
+    # Effective hourly wage: the real price of your time, not the cherry-picked on-trip rate showcased in ads.
+    if total_hours <= 0:
+        return { error: "Total hours must be > 0" }
+
+    effective_hourly = net_income / total_hours
+
+    # Diagnostics to reveal where surplus is extracted: fees reduce gross; unpaid hours dilute hourly earnings;
+    # depreciation accelerates the conversion of workers' assets into platform throughput.
+    expense_share     = total_expenses / gross if gross > 0 else null
+    unpaid_time_share = unpaid_hours / total_hours
+    breakeven_rate    = (total_expenses / paid_hours) if paid_hours > 0 else null
+
+    return {
+        effective_hourly_wage: effective_hourly,
+        net_income:            net_income,
+        total_expenses:        total_expenses,
+        total_time_hours:      total_hours,
+        expense_share:         expense_share,
+        unpaid_time_share:     unpaid_time_share,
+        breakeven_rate_per_paid_hour: breakeven_rate
+    }
+
+Why this framing matters
+1) Transfer of employer costs disguised as flexibility
+Traditional employers cover payroll taxes, benefits, equipment, and much of downtime. Platforms rebrand this shift as “be your own boss,” but workers now finance production (vehicles, phones), shoulder volatility (no guaranteed hours), and do unpaid coordination work. The app’s promise of scheduling autonomy often masks algorithmic nudging, surge manipulation, and deactivation risks that constrain real choice.
+
+2) Return to pre-industrial piecework
+Pay-per-task rather than pay-per-hour evokes 19th-century piecework: workers absorb idle time and quality-risk while buyers dictate prices. Platform ratings and acceptance metrics function like overseer tools, extracting more effort per piece while externalizing inventory and capital costs onto workers.
+
+3) Surplus value extraction by apps like Uber
+Platforms intermediate demand and supply, set prices, and levy commissions dynamically. Their control over information (opaque dispatch, hidden destinations, variable pay) and access to customers enables them to appropriate a portion of the value created by labor and assets the workers provide. Algorithmic management reduces bargaining power: individual drivers can’t set rates or collectively negotiate, so the platform’s take can ratchet upward with limited exit options.
+
+4) “Independent contractor” as legal fiction
+Economic reality shows dependence: the platform controls key terms—pricing, customer access, performance standards, and discipline via deactivation—while workers cannot meaningfully negotiate. This resembles employment in substance. The contractor label functions to avoid wage floors, overtime, unemployment insurance, workers’ comp, and benefits.
+
+5) Platform capitalism and precarity
+By modularizing work into micro-tasks and atomizing workers, platforms intensify income volatility and transfer inventory/maintenance risk to individuals. Attention-gamified apps normalize churn and deactivation, keeping workers marginal and interchangeable. Precarity isn’t a bug—it’s a lever to suppress pay and reduce obligations.
+
+Implementation tips
+- Let users toggle between mileage-based composite rates (e.g., IRS standard mileage) versus line-item tracking for accuracy.
+- Provide scenario testing: how does a 5% commission hike, 10% more unpaid time, or a tire replacement change the hourly?
+- Include rolling averages over 4–8 weeks to dampen volatility.
+- Offer reminders to log unpaid tasks and time: waiting, repositioning, returns, support chats—these are the invisible drains.
+- Add a “target wage” module: given desired hourly and typical unpaid time, compute the minimum per-mile/per-order pay to accept.
+
+Concrete example
+Suppose for a week:
+- Gross_earnings: 900
+- Paid_time: 25 hours
+- Unpaid_time: 15 hours (waiting/reposition/support)
+- Platform_fees: 180
+- Fuel: 120
+- Maintenance: 40
+- Depreciation: 90
+- Insurance: 40
+- Phone/data: 15
+- Equipment/cleaning: 10
+- Taxes and benefits (SE tax + income tax + health + paid leave + retirement): 160
+- Overhead (accounting, licensing, PPE, training): 15
+
+Total_hours = 40
+Total_expenses = 180 + 120 + 40 + 90 + 40 + 15 + 10 + 160 + 15 = 670
+Net_income = 900 - 670 = 230
+Effective_hourly = 230 / 40 = 5.75 per hour
+
+Despite headline “36 per hour on-trip,” the true hourly is 5.75 when unpaid time and full costs are included—an illustration of how piecework plus externalized costs can push earnings below minimum wage.
+
+Final note
+A calculator like this is not just bookkeeping—it exposes how the platform model privatizes risk and socializes control. By turning labor into atomized tasks and calling workers “independent,” apps reproduce old piecework dynamics under a glossy interface, capturing surplus through information asymmetry and managerial algorithms. Your tool helps workers see through the “flexibility” narrative, price their labor realistically, and make informed decisions about what gigs, rates, and hours are actually sustainable.

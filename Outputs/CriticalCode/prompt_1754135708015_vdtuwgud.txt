@@ -1,0 +1,261 @@
+Below is a simple, data-oriented function you can adapt for a “crisis capitalism tracker.” It ingests datasets of crises and policy changes, computes correlations and temporal alignments, and flags patterns that suggest “shock doctrine” dynamics (i.e., when crises precede or coincide with policies that disproportionately benefit elite interests). The inline comments go beyond code mechanics to critically examine how crisis narratives can enable unpopular policies, how emergency measures become entrenched, and how wealth is transferred from public to private hands.
+
+Note: This is a scaffold; you’ll need to tailor feature engineering to your jurisdiction(s), data availability, and the kinds of “elite-benefit” policy markers you want to score.
+
+Python code:
+
+import pandas as pd
+import numpy as np
+from dataclasses import dataclass
+from typing import List, Optional, Tuple, Dict
+
+@dataclass
+class CrisisEvent:
+    """
+    Represents a crisis event.
+    - type: e.g., 'financial', 'pandemic', 'natural_disaster', 'geopolitical'.
+    - severity: numeric severity index (normalize to 0-1 or 0-100).
+    - start_date, end_date: inclusive dates the crisis is considered active.
+    - narrative_tags: keywords from media/government framing (e.g., 'emergency', 'national security', 'unprecedented').
+    Commentary:
+    Crises typically come with strong narrative frames emphasizing urgency, uncertainty,
+    and necessity. These frames are not neutral descriptors; they shape the "Overton window"
+    of permissible policy. The presence of keywords like 'emergency' is not merely text;
+    it signals a governance pivot: the justification switch from deliberative consent
+    to expedited compliance. This is central to how unpopular policies can be routed
+    through narrow procedural channels during periods of public fear and informational overload.
+    """
+    id: str
+    type: str
+    severity: float
+    start_date: pd.Timestamp
+    end_date: pd.Timestamp
+    narrative_tags: List[str]
+
+@dataclass
+class PolicyChange:
+    """
+    Represents a policy change.
+    - category: e.g., 'bailout', 'tax_policy', 'privatization', 'deregulation', 'procurement', 'surveillance'.
+    - beneficiaries_score: a scalar proxy for how much the policy advantages concentrated wealth or specific sectors
+      (e.g., market cap-weighted impact, tax expenditure distributional analysis). Higher => greater elite benefit.
+    - democratic_bypass_score: proxy for how much typical deliberative processes were shortened or bypassed
+      (e.g., fast-track, omnibus riders, emergency decrees).
+    - sunset_clause_strength: 0-1 indicator of whether the measure has meaningful sunset/rollback mechanisms.
+    - stickiness_risk: ex ante risk (0-1) that the measure persists beyond crisis (based on design: auto-renewals,
+      vague criteria for termination, institutionalization in baseline budgets, creation of vested contractor lobbies).
+    Commentary:
+    Policy attributes operationalize the political economy thesis:
+    1) Unpopular policies often pass under 'emergency' packaging (high democratic_bypass_score).
+    2) 'Temporary' measures harden into permanent infrastructure when sunset clauses are weak and when new
+       beneficiaries acquire lobbying power (stickiness_risk).
+    3) The distribution of benefits ('beneficiaries_score') makes visible the transfer mechanism—public guarantees,
+       tax preferences, monopoly rights, or privatized revenue streams replacing public services.
+    """
+    id: str
+    date_enacted: pd.Timestamp
+    category: str
+    beneficiaries_score: float
+    democratic_bypass_score: float
+    sunset_clause_strength: float
+    stickiness_risk: float
+    narrative_tags: List[str]
+
+@dataclass
+class CorrelationResult:
+    """
+    Stores the correlation/association outputs and diagnostic indicators.
+    """
+    crisis_id: str
+    policy_id: str
+    temporal_distance_days: int
+    overlap: bool
+    elite_benefit: float
+    bypass: float
+    permanence_risk: float
+    shock_doctrine_index: float
+    rationale: str
+
+def correlate_crises_with_policies(
+    crises: List[CrisisEvent],
+    policies: List[PolicyChange],
+    window_days: int = 365,
+    severity_weight: float = 0.4,
+    elite_weight: float = 0.3,
+    bypass_weight: float = 0.2,
+    permanence_weight: float = 0.1,
+    min_beneficiaries_score: float = 0.5,
+    min_bypass_score: float = 0.4
+) -> List[CorrelationResult]:
+    """
+    Correlate crises with policy changes likely to reflect crisis-justified, elite-benefiting measures.
+
+    Inputs:
+    - window_days: time window around a crisis within which policies are considered associated.
+    - weights: control the composite 'shock_doctrine_index' which synthesizes severity, elite benefit,
+      democratic bypass, and permanence risk—mirroring how 'temporary emergencies' become durable policy baselines.
+
+    Commentary on logic:
+    1) Temporal proximity: Policies passed during or shortly after crises deserve scrutiny because urgency messaging
+       compresses deliberation and allows omnibus bills to carry riders that would fail in calmer times.
+    2) Elite-benefit filter: We focus on policies with high beneficiaries_score because crisis framing often
+       rationalizes asymmetric interventions (e.g., asset guarantees, regulatory waivers) as necessary for stability.
+    3) Bypass and permanence: High democratic_bypass_score flags process shortcuts; high stickiness_risk flags the
+       institutional cement that converts a momentary exception into ongoing architecture—budgets, contracts,
+       surveillance systems, or privatized revenue models that persist after fear subsides.
+    4) Narrative alignment: Overlap in narrative_tags between crisis and policy can indicate deliberate coupling:
+       the same 'emergency' lexicon used to justify both the crisis response and the policy wish list, which
+       otherwise would face public pushback.
+
+    Why emergency measures become permanent:
+    - Political economy inertia: beneficiaries mobilize to defend rents; opponents face collective action problems.
+    - Institutional embedding: new agencies, IT systems, or legal capabilities create sunk costs and path dependence.
+    - Moving baselines: renewals become default; sunset criteria are vague or tied to unfalsifiable conditions.
+    - Risk aversion: officials prefer not to be blamed for rollback if another shock occurs (“one-way ratchet”).
+
+    How crisis narratives bypass deliberation:
+    - Agenda control: elites pack long-desired measures into emergency packages.
+    - Temporal scarcity: accelerated timelines limit hearings, amendments, and public scrutiny.
+    - Framing effects: dissent is cast as irresponsible or dangerous amid uncertainty, shrinking the space for
+      democratic contestation about structural redistribution or market governance.
+
+    Returns:
+    - A list of CorrelationResult with a 'shock_doctrine_index' signal and an explanatory 'rationale' for auditing.
+    """
+    results: List[CorrelationResult] = []
+
+    # Precompute for efficient joins
+    policies_sorted = sorted(policies, key=lambda p: p.date_enacted)
+
+    for c in crises:
+        for p in policies_sorted:
+            # Skip policies far from the crisis window to reduce false positives.
+            start_window = c.start_date - pd.Timedelta(days=window_days)
+            end_window = c.end_date + pd.Timedelta(days=window_days)
+
+            if p.date_enacted < start_window or p.date_enacted > end_window:
+                continue
+
+            # Temporal metrics
+            overlap = (c.start_date <= p.date_enacted <= c.end_date)
+            temporal_distance_days = int((p.date_enacted - c.end_date).days) if p.date_enacted > c.end_date else \
+                                     int((c.start_date - p.date_enacted).days) if p.date_enacted < c.start_date else 0
+
+            # Filter to likely crisis-justified elite-benefiting policies
+            if p.beneficiaries_score < min_beneficiaries_score and p.democratic_bypass_score < min_bypass_score:
+                # Low elite benefit AND low bypass suggests ordinary policymaking; still recordable but de-emphasized.
+                pass
+
+            # Narrative alignment score (simple Jaccard over tags)
+            crisis_tags = set(t.lower() for t in c.narrative_tags)
+            policy_tags = set(t.lower() for t in p.narrative_tags)
+            narrative_overlap = len(crisis_tags & policy_tags) / max(1, len(crisis_tags | policy_tags))
+
+            # Composite 'shock doctrine' index: higher implies stronger pattern of crisis-enabled elite policy.
+            # Weighted sum reflects that severe crises plus elite-benefiting policies, passed via bypass and with
+            # high stickiness, typify the transfer of public risk/wealth to private beneficiaries.
+            shock_doctrine_index = (
+                severity_weight * _normalize(c.severity) +
+                elite_weight * _normalize(p.beneficiaries_score) +
+                bypass_weight * _normalize(p.democratic_bypass_score) +
+                permanence_weight * _normalize(p.stickiness_risk)
+            )
+
+            # Slightly boost the index if enacted during the crisis or if narrative frames match,
+            # as these are hallmarks of using the crisis to justify otherwise unpopular measures.
+            if overlap:
+                shock_doctrine_index *= 1.05
+            if narrative_overlap > 0.2:
+                shock_doctrine_index *= (1 + 0.1 * narrative_overlap)
+
+            # Construct an explanatory rationale for transparency and auditability.
+            rationale_bits = []
+
+            # Commentary: The temporal link is not causation, but concentrated policy passage during crisis windows
+            # is a known signature of the "window of opportunity" exploited by organized interests.
+            if overlap:
+                rationale_bits.append("Policy enacted during crisis, increasing likelihood of crisis-justified passage.")
+            else:
+                rationale_bits.append(f"Policy enacted {abs(temporal_distance_days)} days from crisis window.")
+
+            # Commentary: High beneficiaries_score often signals transfers via guarantees, tax expenditures,
+            # accelerated procurement, privatization, or deregulation that consolidates market power.
+            if p.beneficiaries_score >= min_beneficiaries_score:
+                rationale_bits.append(f"Elite-benefit signal high (score={p.beneficiaries_score:.2f}).")
+
+            # Commentary: Democratic bypass highlights curtailed deliberation (fast-track, omnibus, emergency decrees),
+            # which lowers public visibility and contestation—key to pushing unpopular changes.
+            if p.democratic_bypass_score >= min_bypass_score:
+                rationale_bits.append(f"Democratic bypass elevated (score={p.democratic_bypass_score:.2f}).")
+
+            # Commentary: Weak sunset clauses and high stickiness imply 'temporary' measures entrench.
+            if p.stickiness_risk >= 0.5:
+                rationale_bits.append(f"High permanence risk (stickiness={p.stickiness_risk:.2f}).")
+
+            if narrative_overlap > 0:
+                rationale_bits.append(f"Narrative alignment with crisis framing (overlap={narrative_overlap:.2f}).")
+
+            # Summarize broader political economy mechanism in-line for each pairing (useful for analysts/reviewers).
+            rationale_bits.append(
+                "Mechanism: Crisis framing compresses deliberation and expands executive discretion; "
+                "omnibus packages bundle elite-advantaged measures with necessary relief; "
+                "weak sunsets and new vested interests convert emergency exceptions into enduring policy."
+            )
+
+            result = CorrelationResult(
+                crisis_id=c.id,
+                policy_id=p.id,
+                temporal_distance_days=temporal_distance_days,
+                overlap=overlap,
+                elite_benefit=p.beneficiaries_score,
+                bypass=p.democratic_bypass_score,
+                permanence_risk=p.stickiness_risk,
+                shock_doctrine_index=float(np.clip(shock_doctrine_index, 0, 10)),  # bounded for dashboards
+                rationale=" | ".join(rationale_bits)
+            )
+            results.append(result)
+
+    # Sort by strongest signals first to prioritize review.
+    results.sort(key=lambda r: r.shock_doctrine_index, reverse=True)
+    return results
+
+def _normalize(x: float, lo: float = 0.0, hi: float = 1.0) -> float:
+    """
+    Simple min-max normalization for indices assumed to be in [lo, hi].
+    Commentary:
+    Normalization encodes a normative claim: we treat severity, elite benefit, bypass, and stickiness
+    as commensurable contributors to a single political economy signal. This is an analytic convenience—useful
+    for triage—not an assertion that they are ethically or causally equivalent. Sensitivity testing of weights
+    is essential to avoid reifying methodological choices as findings.
+    """
+    if hi == lo:
+        return 0.0
+    return max(0.0, min(1.0, (x - lo) / (hi - lo)))
+
+How to use:
+1) Build datasets:
+   - crises: crises with severity indices, dates, and narrative tags derived from media/official communications.
+   - policies: policy changes with scores. You can score beneficiaries using distributional tax analyses, sectoral event studies, contract concentration indices, or regulatory cost-benefit allocations; bypass via legislative process metadata; stickiness via sunset design and institutionalization features.
+
+2) Call correlate_crises_with_policies(crises, policies, window_days=365, ...).
+
+3) Inspect results and rationales. Higher shock_doctrine_index values indicate stronger patterns consistent with crisis-enabled passage of elite-benefiting, durable policies.
+
+Analytical discussion (non-code):
+- How crises justify unpopular policies:
+  Crises heighten perceived risk and uncertainty, lowering tolerance for delay. Political entrepreneurs bundle preexisting agendas into “must-pass” packages, framing them as necessary for stability. The public’s bandwidth to parse distributional consequences is limited under stress, enabling measures like broad liability shields, regressive tax accelerations, or deregulatory riders that would face opposition in normal times.
+
+- Why “temporary” emergency measures persist:
+  They create beneficiaries (contractors, surveillance vendors, financial institutions) who organize to defend rents; agencies build workflows and systems around the new powers; renewals become default via automatic triggers; and policymakers fear being blamed for rolling back protections if another shock occurs. The result is a one-way ratchet: new exceptions become the new baseline.
+
+- How shock doctrine transfers public wealth to private hands:
+  Mechanisms include socializing losses while privatizing gains (guarantees, backstops, preferential lending), converting public services into private concessions with guaranteed revenue, granting monopoly/oligopoly rights under expedited procurement, and rewriting tax and regulatory codes to concentrate benefits. Funding and legal risk are borne by the public; upside accrues to well-positioned firms and asset holders.
+
+- How crisis narratives bypass democratic deliberation:
+  Emergency frames justify fast-track procedures, limit debate, and conflate dissent with irresponsibility. Complex omnibus bills obscure distributive riders. Time compression curtails stakeholder input and judicial review. This procedural narrowing is not incidental; it’s functional to advancing structurally significant economic changes with minimal accountability.
+
+Extensions and cautions:
+- Add causal inference modules (difference-in-differences, event studies) to move beyond correlation.
+- Track heterogeneity: which sectors, which agencies, which legislative vehicles?
+- Maintain an audit trail of scoring decisions; perform sensitivity analysis on weights to avoid encoding bias.
+- Incorporate sunset tracking and actual repeal/expiry outcomes to validate stickiness predictions over time.

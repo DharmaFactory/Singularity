@@ -1,0 +1,289 @@
+Below is a self-contained Python script that ingests a simple CSV of surveillance-related firms/projects (with columns like company, product, sector, revenue, lobbying_spend, gov_contracts, data_scope, and region), performs basic exploratory analysis, and surfaces relationships that illustrate how surveillance capitalism aligns corporate profit motives with state power. The comments intentionally go beyond code mechanics to unpack how digital surveillance is justified via security rhetoric, how it enables new forms of social control and profit extraction, and why privacy violations are profitable for corporations and useful for state control.
+
+You can adapt the column names and paths to your dataset. If you don’t have data yet, the script can generate a small synthetic dataset to demonstrate the workflow and the political-economic dynamics it reveals.
+
+# surveillance_profitability_analysis.py
+
+import os
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# NOTE ON FRAMING:
+# This script approaches surveillance as a political-economic system that fuses corporate profit extraction
+# with state power, rather than a neutral tool for "public safety." While code usually focuses on method,
+# here the comments also interrogate purpose: who benefits materially from surveillance expansion, how security
+# rhetoric legitimizes it, and how digital tracking normalizes new forms of social control (behavioral prediction,
+# exclusion, labor discipline, and the chilling of dissent). The aim is to surface the economic interests behind
+# surveillance systems and how those interests shape policy, procurement, and product design.
+
+# EXPECTED CSV SCHEMA (example):
+# company,product,sector,revenue,lobbying_spend,gov_contracts,data_scope,region,security_marketing_intensity
+# - revenue: annual revenue attributable to surveillance-related products/services (in USD)
+# - lobbying_spend: annual lobbying dollars (in USD)
+# - gov_contracts: value of government contracts (in USD)
+# - data_scope: categorical or numeric indicator of how intrusive/broad data collection is (e.g., "narrow", "broad", "extreme" or a 1-5 score)
+# - security_marketing_intensity: proxy metric (0-1) for how strongly security rhetoric is emphasized in marketing/public communications
+#
+# NOTE: These variables let us examine how privacy-invasive “data scope” tracks with revenue growth,
+# how lobbying correlates with profitable contracts, and how “security” messaging intensity aligns with
+# both intrusion and sales. This operationalizes the claim that surveillance capitalism profits from
+# privacy violations and that state alignment (contracts, subsidies, legal carve-outs) is a key channel
+# of value creation. It also foregrounds how security rhetoric functions as a marketing-political technology.
+
+def load_or_create_data(csv_path="surveillance_data.csv", seed=42):
+    np.random.seed(seed)
+    if os.path.exists(csv_path):
+        df = pd.read_csv(csv_path)
+    else:
+        # Create a synthetic dataset for demonstration. In practice, replace with your data.
+        n = 120
+        companies = [f"Firm_{i}" for i in range(n)]
+        sectors = np.random.choice(
+            ["AdTech", "Telecom", "Cloud Infra", "Biometrics", "Smart City", "FinTech KYC", "Retail Analytics", "Defense IT"],
+            size=n
+        )
+        regions = np.random.choice(["US", "EU", "APAC", "LATAM", "MENA"], size=n)
+
+        # Data scope score (1-5). Higher means more invasive/broader capture (location + biometrics + behavioral + cross-device).
+        # In practice, this should be carefully constructed with a codebook; here it’s stylized for illustration.
+        data_scope_score = np.clip(
+            np.round(
+                np.random.normal(loc=3.2, scale=1.0, size=n) +
+                (sectors == "AdTech") * 0.5 +
+                (sectors == "Biometrics") * 0.8 +
+                (sectors == "Smart City") * 0.6
+            ), 1, 5
+        )
+
+        # Security marketing intensity as a 0-1 score. Often rises with state-facing products and broader scope.
+        security_marketing_intensity = np.clip(
+            np.random.beta(a=2, b=3, size=n) +
+            (sectors == "Defense IT") * 0.3 +
+            (sectors == "Smart City") * 0.15 +
+            (data_scope_score - 3) * 0.05,
+            0, 1
+        )
+
+        # Lobbying spend correlates with access to public contracts and favorable regulation.
+        lobbying_spend = np.abs(
+            np.random.lognormal(mean=12, sigma=0.7, size=n) *
+            (1 + (sectors == "Telecom") * 0.4 + (sectors == "Defense IT") * 0.6)
+        )
+
+        # Government contracts: often scale with both lobbying and how useful the product is for monitoring/administrative control.
+        gov_contracts = (
+            lobbying_spend * np.random.uniform(0.2, 1.1, size=n) +
+            data_scope_score * np.random.uniform(1e5, 8e5, size=n) +
+            security_marketing_intensity * np.random.uniform(2e6, 8e6, size=n)
+        )
+
+        # Revenue: surveillance-oriented revenue tends to be a function of data extraction (scope), access to public money,
+        # and market power amplified by regulatory environments shaped via lobbying.
+        revenue = (
+            gov_contracts * np.random.uniform(0.5, 1.7, size=n) +
+            (data_scope_score ** 2) * np.random.uniform(2e5, 9e5, size=n) +
+            np.random.lognormal(mean=12.5, sigma=0.6, size=n)
+        )
+
+        products = np.random.choice(
+            ["FaceID Suite", "Behavioral Analytics SDK", "Smart City Platform", "Device Fingerprinting", "Ad Targeting DSP",
+             "KYC/AML Identity Graph", "Telecom DPI", "Cloud Monitoring"],
+            size=n
+        )
+
+        df = pd.DataFrame({
+            "company": companies,
+            "product": products,
+            "sector": sectors,
+            "region": regions,
+            "data_scope_score": data_scope_score.astype(int),
+            "security_marketing_intensity": security_marketing_intensity,
+            "lobbying_spend": lobbying_spend,
+            "gov_contracts": gov_contracts,
+            "revenue": revenue
+        })
+
+        df.to_csv(csv_path, index=False)
+
+    # Commentary: The very act of assembling this dataset mirrors how the surveillance economy treats
+    # human life as data to be harvested and optimized for profit or administrative efficiency. The columns
+    # above reflect the supply chain of surveillance capitalism: extractive data practices, political influence
+    # (lobbying), state demand (contracts), and profitable sales justified by "security" narratives.
+
+    return df
+
+
+def summarize(df):
+    print("Basic overview")
+    print(df.describe(include='all', datetime_is_numeric=True))
+    print("\nTop sectors by average revenue (surveillance-related)")
+    print(df.groupby("sector")["revenue"].mean().sort_values(ascending=False).round(2))
+
+    print("\nCorrelation matrix (selected variables)")
+    cols = ["revenue", "lobbying_spend", "gov_contracts", "data_scope_score", "security_marketing_intensity"]
+    corr = df[cols].corr()
+    print(corr.round(3))
+
+    # Commentary: We expect positive correlations between data_scope_score and revenue,
+    # because invasive, cross-context data capture enables more precise targeting, prediction,
+    # and behavioral shaping—commodities corporations can monetize. We also expect lobbying_spend
+    # to correlate with gov_contracts and revenue, reflecting how political access and regulatory
+    # capture translate directly into profitability. Security marketing intensity is a signaling
+    # mechanism: it frames commercial monitoring as a public good to justify expanded collection.
+
+
+def plot_relationships(df, out_dir="figs"):
+    os.makedirs(out_dir, exist_ok=True)
+    sns.set(style="whitegrid")
+
+    # Revenue vs Data Scope
+    plt.figure(figsize=(8, 5))
+    sns.regplot(data=df, x="data_scope_score", y="revenue", scatter_kws={"alpha": 0.5})
+    plt.title("Revenue vs. Data Scope (higher scope = broader surveillance)")
+    plt.savefig(os.path.join(out_dir, "revenue_vs_data_scope.png"), bbox_inches="tight")
+    plt.close()
+
+    # Government Contracts vs Lobbying Spend
+    plt.figure(figsize=(8, 5))
+    sns.regplot(data=df, x="lobbying_spend", y="gov_contracts", scatter_kws={"alpha": 0.5})
+    plt.title("Government Contracts vs. Lobbying Spend")
+    plt.xscale("log")
+    plt.yscale("log")
+    plt.savefig(os.path.join(out_dir, "gov_contracts_vs_lobbying.png"), bbox_inches="tight")
+    plt.close()
+
+    # Security Marketing Intensity vs Data Scope
+    plt.figure(figsize=(8, 5))
+    sns.regplot(data=df, x="data_scope_score", y="security_marketing_intensity", x_jitter=0.15, scatter_kws={"alpha": 0.5})
+    plt.title("Security Rhetoric vs. Surveillance Intrusiveness")
+    plt.savefig(os.path.join(out_dir, "security_vs_scope.png"), bbox_inches="tight")
+    plt.close()
+
+    # Sectoral patterns: Revenue by sector colored by security marketing
+    plt.figure(figsize=(10, 6))
+    sns.scatterplot(
+        data=df,
+        x="gov_contracts",
+        y="revenue",
+        hue="sector",
+        size="security_marketing_intensity",
+        alpha=0.7
+    )
+    plt.xscale("log")
+    plt.yscale("log")
+    plt.title("Revenue vs. Government Contracts by Sector (size = security rhetoric)")
+    plt.savefig(os.path.join(out_dir, "revenue_vs_gov_by_sector.png"), bbox_inches="tight")
+    plt.close()
+
+    # Commentary: These visuals highlight material incentives. Revenue rises with broader data scope
+    # because more invasive capture unlocks new monetization vectors (ad targeting, risk scoring,
+    # identity brokerage, predictive policing). Government contracts expand with lobbying—public money
+    # is steered toward surveillance infrastructure that entrenches both corporate vendors and state
+    # monitoring capacity. Security rhetoric intensity tracks with scope because it provides ideological
+    # cover to normalize expansion ("safety," "threats," "resilience") even when evidence of public safety
+    # benefits is weak or contested. The scatter by sector shows how different market niches convert
+    # these dynamics into profit while hardwiring social control into everyday systems.
+
+
+def profitability_drivers(df):
+    # Simple linear models to quantify associations (illustrative; not causal inference).
+    # Note: For rigorous inference, consider fixed effects, IVs, or panel data with time trends.
+    import statsmodels.api as sm
+
+    X = df[["data_scope_score", "lobbying_spend", "gov_contracts", "security_marketing_intensity"]].copy()
+    # Log transforms stabilize variance and reflect proportional relationships common in revenue processes.
+    X["log_lobbying"] = np.log1p(X["lobbying_spend"])
+    X["log_gov"] = np.log1p(X["gov_contracts"])
+    X = X.drop(columns=["lobbying_spend", "gov_contracts"])
+
+    y = np.log1p(df["revenue"])  # Log revenue
+
+    X = sm.add_constant(X)
+    model = sm.OLS(y, X).fit()
+
+    print("\nOLS results: log(revenue) ~ scope + log(lobbying) + log(gov) + security_rhetoric")
+    print(model.summary())
+
+    # Commentary: Interpreting coefficients in log terms suggests elasticities: a 1% increase in gov contracts
+    # is associated with a roughly proportional change in revenue. Strong positive associations for data scope
+    # indicate that privacy violations—broader, deeper data extraction—are profitable. Security marketing’s
+    # positive association reflects how fear-based framing and “public safety” narratives serve as sales drivers
+    # and policy justifications, aligning corporate interests with the state’s desire for visibility and control.
+
+
+def segmentation_insights(df):
+    # Segment by sector and region to see where surveillance-profit alignment is strongest.
+    seg = df.groupby(["sector", "region"]).agg(
+        avg_revenue=("revenue", "mean"),
+        avg_scope=("data_scope_score", "mean"),
+        avg_security_rhetoric=("security_marketing_intensity", "mean"),
+        avg_gov_contracts=("gov_contracts", "mean"),
+        avg_lobbying=("lobbying_spend", "mean")
+    ).reset_index()
+
+    print("\nSegment-level means (sector x region)")
+    print(seg.sort_values("avg_revenue", ascending=False).round(2))
+
+    # Commentary: Cross-region differences can indicate where legal regimes enable or constrain extraction:
+    # weaker privacy protections or expansive “national security” exemptions often correlate with higher scope
+    # and contract values. Sector differences show how some niches (e.g., biometrics, smart city platforms,
+    # defense IT) are structurally tied to state procurement cycles, which stabilizes profits and entrenches
+    # infrastructure that can be repurposed from “safety” to social control (monitoring protests, disciplining
+    # labor, excluding marginalized groups via automated scoring).
+
+
+def risk_and_dependence(df):
+    # Examine dependence on government contracts and the security rhetoric required to maintain that pipeline.
+    df["gov_revenue_ratio"] = df["gov_contracts"] / (df["revenue"] + 1e-9)
+    print("\nDistribution of gov revenue dependence (contracts / revenue)")
+    print(df["gov_revenue_ratio"].describe())
+
+    high_dependence = df[df["gov_revenue_ratio"] > 0.5]
+    print("\nFirms with >50% revenue tied to government contracts (indicative of tight state alignment)")
+    print(high_dependence[["company", "sector", "gov_revenue_ratio"]].sort_values("gov_revenue_ratio", ascending=False).head(15))
+
+    # Commentary: A high ratio indicates firms structurally reliant on public spending and political favor.
+    # This often couples profit motives with the state’s surveillance ambitions. The political economy becomes
+    # self-reinforcing: firms lobby for expanded programs, pitch “security” crises to justify budgets, and then
+    # deliver tools that expand administrative reach. The result is path dependence: surveillance capacity grows
+    # even when crime rates fall, because profitability and bureaucratic incentives—not public safety outcomes—
+    # drive expansion.
+
+
+def main():
+    df = load_or_create_data()
+    summarize(df)
+    plot_relationships(df)
+    profitability_drivers(df)
+    segmentation_insights(df)
+    risk_and_dependence(df)
+
+    # Closing analysis:
+    # 1) How surveillance capitalism creates new social control:
+    #    By commodifying behavioral data at scale, firms produce predictive and classificatory systems that
+    #    discipline populations (credit/insurance pricing, worker productivity tracking, automated eligibility,
+    #    protest monitoring). These systems convert social life into inputs for managerial control and monetization,
+    #    narrowing autonomy and chilling dissent.
+    #
+    # 2) Why privacy violations are profitable and useful for state control:
+    #    More granular, cross-context data boosts prediction accuracy, ad performance, and risk scoring—core revenue sources.
+    #    The same data makes populations legible to the state, facilitating surveillance, border control, and policing.
+    #    Corporations monetize; states gain visibility. Legal exemptions and public contracts align their incentives.
+    #
+    # 3) Security rhetoric as justification:
+    #    “Safety,” “national security,” and “resilience” narratives legitimize intrusive systems, deflect scrutiny,
+    #    and shift debate from rights and power to fear and urgency. This narrative machinery is visible in the
+    #    positive association between security-marketing intensity, broader data scope, and sales/contracts.
+    #
+    # 4) Digital surveillance enables unprecedented control:
+    #    Always-on sensors, identity resolution, and cross-device data fusion enable continuous tracking and algorithmic
+    #    intervention. The infrastructure outlives specific crises, normalizing routine monitoring. Economic incentives
+    #    favor expansion, not restraint—especially where lobbying converts public budgets into private revenue.
+    #
+    # In short: Surveillance systems, marketed as safety tools, operate as profit engines and governance technologies.
+    # Their growth reflects capital accumulation and state administrative interests more than demonstrated public safety gains.
+
+if __name__ == "__main__":
+    main()

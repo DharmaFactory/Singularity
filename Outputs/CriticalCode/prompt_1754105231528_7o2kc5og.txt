@@ -1,0 +1,341 @@
+Below is a concise, end-to-end proposal for a democratic decision-making algorithm for participatory budgeting (PB), followed by a reference implementation in Python. The code is heavily commented not only to explain the mechanics, but also to analyze how participatory budgeting enables communities to control resources and spending priorities, why democratic control of public resources is often opposed, and how PB demonstrates the feasibility of economic democracy and can transform economic relationships. After the code, you’ll find a brief summary of operational guidelines and extensions.
+
+High-level approach
+1) Input structures
+- Budget B (total funds).
+- Project list P with cost, category, and optional minimum funding thresholds.
+- Voters V with ballots that can include ranked choices or scored approvals, plus optional demographic tags for equity analysis.
+- Constraints C such as category quotas, geographic fairness, and minimum/maximum allocations.
+
+2) Aggregation method
+- Use a multi-ballot approach that supports: approval voting, ranked-choice scoring (e.g., Borda-like), and participatory deliberation inputs (e.g., community priorities).
+- Combine inputs using a weighted social welfare function with explicit equity-aware constraints. This balances simple majority preferences with historically underserved groups’ priorities.
+
+3) Budget allocation algorithm
+- Compute project scores from ballots (approval or rank-based).
+- Apply a knapsack-style selection with fairness constraints.
+- Iteratively fund projects until budget is exhausted, respecting constraints and optional participatory rounds that allow revision.
+
+4) Equity and learning
+- Track which communities benefit; adjust weights across rounds to address systematic underrepresentation.
+- Publicly audit the process and provide explainable outcomes.
+
+5) Democratic control commentary embedded in code comments
+- Comments reflect on how PB redistributes decision power from experts/markets to communities, clarifying what’s at stake and how PB can be made robust against cooptation or capture.
+
+Reference implementation (Python-like pseudocode)
+Note: This is production-ready pseudocode with clear interfaces; adapt types and I/O to your environment.
+
+# -----------------------------------------
+# Participatory Budgeting Democratic Allocator
+# -----------------------------------------
+# Commentary: This algorithm operationalizes a core democratic claim:
+# communities most affected by spending choices should have material
+# authority over those choices. By combining transparent scoring,
+# constraints that encode equity goals, and iterative deliberation,
+# the process resists the typical drift toward technocracy or purely
+# market allocation. The code comments examine how PB makes economic
+# democracy concrete and why it faces opposition.
+
+from typing import List, Dict, Optional, Tuple
+from dataclasses import dataclass, field
+
+@dataclass
+class Project:
+    id: str
+    name: str
+    cost: float
+    category: Optional[str] = None
+    min_funding: float = 0.0   # for partial-funding possibilities
+    divisible: bool = False    # if true, project can receive partial funding
+    meta: Dict = field(default_factory=dict)  # can store geographic tags, etc.
+
+@dataclass
+class Ballot:
+    voter_id: str
+    # Either approvals or rankings can be used. We support both and normalize.
+    approvals: List[str] = field(default_factory=list)        # project IDs
+    ranking: List[str] = field(default_factory=list)          # ordered project IDs
+    # Optional: score map for scored voting
+    scores: Dict[str, float] = field(default_factory=dict)    # project_id -> score
+    # Optional demographic or community tags for equity analysis
+    tags: Dict[str, str] = field(default_factory=dict)        # e.g., {"district": "A", "income": "low"}
+
+@dataclass
+class Constraints:
+    total_budget: float
+    # Category quotas ensure breadth (e.g., at least X% for public health)
+    category_min: Dict[str, float] = field(default_factory=dict)   # category -> min spend
+    category_max: Dict[str, float] = field(default_factory=dict)   # category -> max spend
+    # Geographic or community fairness thresholds (share of benefits or funding)
+    community_min_share: Dict[str, float] = field(default_factory=dict)  # tag value -> min share (0..1)
+    community_max_share: Dict[str, float] = field(default_factory=dict)  # tag value -> max share (0..1)
+    # Weighting knobs to correct underrepresentation in scoring
+    equity_weights: Dict[str, float] = field(default_factory=dict)  # e.g., {"low_income": 1.2}
+    # Whether to prefer more, smaller projects or fewer, larger projects (tie-breaker)
+    prefer_breadth: bool = True
+
+@dataclass
+class AllocationResult:
+    funded_projects: Dict[str, float]   # project_id -> allocated amount
+    total_spent: float
+    project_scores: Dict[str, float]
+    diagnostics: Dict                 # includes fairness checks and trade-offs
+
+def normalize_scores(projects: List[Project], ballots: List[Ballot], constraints: Constraints) -> Dict[str, float]:
+    # Commentary: Pluralism is a democratic strength, not a weakness.
+    # PB allows multiple expression modes (approval, ranking, score) to
+    # reduce barriers to participation and capture more nuanced preferences.
+    # We combine them transparently. Equity weights counter structural
+    # imbalances that otherwise distort “neutral” tallies.
+    scores = {p.id: 0.0 for p in projects}
+
+    # Precompute equity multiplier per voter based on tags
+    def equity_multiplier(b: Ballot) -> float:
+        mult = 1.0
+        for k, v in b.tags.items():
+            key = f"{k}:{v}"
+            if key in constraints.equity_weights:
+                mult *= constraints.equity_weights[key]
+        return mult
+
+    # Approval contribution
+    for b in ballots:
+        w = equity_multiplier(b)
+        for pid in b.approvals:
+            if pid in scores:
+                scores[pid] += 1.0 * w
+
+    # Ranking contribution (Borda-like: higher rank = more points)
+    for b in ballots:
+        w = equity_multiplier(b)
+        n = len(b.ranking)
+        for i, pid in enumerate(b.ranking):
+            if pid in scores:
+                scores[pid] += (n - i) * w  # highest rank gets n points
+
+    # Scored ballots contribution (normalize to [0,1] per ballot)
+    for b in ballots:
+        w = equity_multiplier(b)
+        if b.scores:
+            mx = max(b.scores.values())
+            mn = min(b.scores.values())
+            denom = (mx - mn) if mx != mn else 1.0
+            for pid, s in b.scores.items():
+                if pid in scores:
+                    norm = (s - mn) / denom
+                    scores[pid] += norm * w
+
+    # Commentary: This weighting is not “bias”; it is a corrective for unequal
+    # starting conditions. Without this, wealthier or better-organized groups
+    # can dominate outcomes. PB’s legitimacy stems from equalizing meaningful
+    # influence, not just equalizing the act of voting.
+    return scores
+
+def satisfies_category_quota(allocation: Dict[str, float], projects: Dict[str, Project], constraints: Constraints) -> bool:
+    spent = sum(allocation.values())
+    if spent == 0:
+        return True
+    # Check minimums and maximums by category
+    by_cat = {}
+    for pid, amt in allocation.items():
+        cat = projects[pid].category
+        if cat is None:
+            continue
+        by_cat[cat] = by_cat.get(cat, 0.0) + amt
+
+    # Verify mins
+    for cat, min_amt in constraints.category_min.items():
+        if by_cat.get(cat, 0.0) < min_amt:
+            return False
+
+    # Verify maxes
+    for cat, max_amt in constraints.category_max.items():
+        if by_cat.get(cat, 0.0) > max_amt:
+            return False
+
+    return True
+
+def community_share(allocation: Dict[str, float], projects: Dict[str, Project], tag_key: str) -> Dict[str, float]:
+    # Commentary: Community shares make explicit the spatial or social
+    # distribution of benefits, addressing a core democratic concern:
+    # who actually gains from public spending?
+    total = sum(allocation.values())
+    if total == 0:
+        return {}
+    shares = {}
+    for pid, amt in allocation.items():
+        tag_val = projects[pid].meta.get(tag_key)
+        if tag_val is not None:
+            shares[tag_val] = shares.get(tag_val, 0.0) + amt
+    for k in list(shares.keys()):
+        shares[k] /= total
+    return shares
+
+def satisfies_community_fairness(allocation: Dict[str, float], projects: Dict[str, Project], constraints: Constraints) -> bool:
+    # Check all tag-based share constraints provided in constraints.community_min_share/max_share
+    # The keys are formatted as "tag_key:tag_val"
+    if not constraints.community_min_share and not constraints.community_max_share:
+        return True
+    total = sum(allocation.values())
+    if total == 0:
+        return True
+
+    # Aggregate per tag_key
+    by_tagkey: Dict[str, Dict[str, float]] = {}
+    for pid, amt in allocation.items():
+        meta = projects[pid].meta
+        for tag_key, tag_val in meta.items():
+            if isinstance(tag_val, str):
+                by_tagkey.setdefault(tag_key, {})
+                by_tagkey[tag_key][tag_val] = by_tagkey[tag_key].get(tag_val, 0.0) + amt
+
+    # Convert to shares
+    for tag_key in by_tagkey:
+        for tag_val in by_tagkey[tag_key]:
+            by_tagkey[tag_key][tag_val] /= total
+
+    # Validate constraints
+    for key, min_share in constraints.community_min_share.items():
+        tag_key, tag_val = key.split(":", 1)
+        share = by_tagkey.get(tag_key, {}).get(tag_val, 0.0)
+        if share < min_share:
+            return False
+    for key, max_share in constraints.community_max_share.items():
+        tag_key, tag_val = key.split(":", 1)
+        share = by_tagkey.get(tag_key, {}).get(tag_val, 0.0)
+        if share > max_share:
+            return False
+    return True
+
+def select_projects(projects: List[Project], scores: Dict[str, float], constraints: Constraints) -> AllocationResult:
+    # Commentary: The heart of PB selection is not maximizing a narrow
+    # efficiency metric; it’s maximizing democratic benefit under
+    # explicit fairness constraints. Traditional expert- or market-led
+    # allocation often externalizes social priorities; PB internalizes them.
+    Pmap = {p.id: p for p in projects}
+    budget = constraints.total_budget
+
+    # Sort by score density (score per unit cost) to get a first-pass frontier
+    # This offers transparency; communities can debate if this heuristic should
+    # be replaced by more equity-weighted densities or deliberative priorities.
+    items = [(pid, scores[pid] / max(Pmap[pid].cost, 1e-9)) for pid in scores if Pmap[pid].cost > 0]
+    items.sort(key=lambda x: x[1], reverse=True)
+
+    allocation: Dict[str, float] = {}
+    spent = 0.0
+
+    # Greedy pass with feasibility checks
+    for pid, density in items:
+        proj = Pmap[pid]
+        if proj.cost + spent <= budget:
+            allocation[pid] = proj.cost
+            spent += proj.cost
+            # Check constraints after tentative inclusion
+            if not satisfies_category_quota(allocation, Pmap, constraints) or not satisfies_community_fairness(allocation, Pmap, constraints):
+                # revert if violates fairness or quotas
+                spent -= proj.cost
+                del allocation[pid]
+        elif proj.divisible:
+            # try partial funding down to min_funding if it helps fill budget
+            avail = budget - spent
+            if avail >= proj.min_funding and avail > 0:
+                allocation[pid] = avail
+                spent += avail
+                if not satisfies_category_quota(allocation, Pmap, constraints) or not satisfies_community_fairness(allocation, Pmap, constraints):
+                    # revert partial
+                    spent -= avail
+                    del allocation[pid]
+            # else skip
+
+    # Tie-breaker logic to prefer breadth if desired: split remainder among small, high-score projects
+    # Commentary: Preferring breadth can widen participation benefits,
+    # reinforcing PB’s norm that public resources should serve many rather than a few.
+    if constraints.prefer_breadth and budget - spent > 0:
+        remainder = budget - spent
+        # Identify small projects not yet funded, high score density
+        remaining = [(pid, dens) for pid, dens in items if pid not in allocation]
+        for pid, dens in remaining:
+            proj = Pmap[pid]
+            if proj.divisible and remainder >= proj.min_funding:
+                amt = min(remainder, max(proj.min_funding, proj.cost * 0.25))
+                allocation[pid] = amt
+                remainder -= amt
+                if not satisfies_category_quota(allocation, Pmap, constraints) or not satisfies_community_fairness(allocation, Pmap, constraints):
+                    # revert if violates
+                    remainder += amt
+                    del allocation[pid]
+            if remainder <= 0:
+                break
+        spent = budget - remainder
+
+    diagnostics = {
+        "spent_ratio": spent / budget if budget > 0 else 0.0,
+        "category_check": satisfies_category_quota(allocation, Pmap, constraints),
+        "community_check": satisfies_community_fairness(allocation, Pmap, constraints),
+        "notes": [
+            "Scores reflect combined approvals/rankings/scores with equity multipliers.",
+            "Greedy selection with fairness constraints; replaceable by MIP for optimality.",
+            "Breadth preference attempts to spread benefits without violating constraints."
+        ]
+    }
+
+    return AllocationResult(
+        funded_projects=allocation,
+        total_spent=spent,
+        project_scores=scores,
+        diagnostics=diagnostics
+    )
+
+def participatory_budgeting_allocate(projects: List[Project], ballots: List[Ballot], constraints: Constraints) -> AllocationResult:
+    # Commentary: The pipeline is deliberately simple and auditable.
+    # PB’s legitimacy relies on transparency: communities can see how
+    # preferences become allocations, contest parameters, and iterate.
+    scores = normalize_scores(projects, ballots, constraints)
+    result = select_projects(projects, scores, constraints)
+    return result
+
+# -----------------------------------------
+# How this enables democratic control and why opposition arises
+# -----------------------------------------
+# Embedded reflections:
+# - PB enables communities to control resources by shifting agenda-setting,
+#   evaluation, and allocation into public, participatory processes. People
+#   directly map needs to spending, confront trade-offs, and build shared
+#   priorities, rather than delegating all authority to experts or markets.
+# - Opposition is systematic because PB reassigns power: it threatens entrenched
+#   interests that benefit from opaque budgets, transactional politics, and
+#   profit-oriented procurement. Bureaucratic inertia, fear of slower decisions,
+#   and narratives that frame laypeople as “incompetent” serve to keep control
+#   concentrated.
+# - PB’s practice demonstrates feasibility: communities routinely produce coherent
+#   investment portfolios, incorporate local knowledge, and improve alignment
+#   between funds and public needs. When PB includes equity constraints, it
+#   corrects historical underinvestment patterns that a “neutral” market ignores.
+# - Community control serves public interest better than expert- or market-only
+#   control by integrating lived experience, which reveals externalities and
+#   distributional effects in real time. Experts remain crucial as advisors, but
+#   democratic oversight sets goals and constraints, ensuring expertise serves
+#   public values rather than substituting for them.
+# - Expanding participation transforms economic relationships: residents become
+#   co-producers of public goods, not passive consumers. Iterative PB cycles
+#   cultivate civic skills, solidarity, and deliberative capacity, which can
+#   extend beyond budgeting to planning, procurement standards, and even public
+#   ownership decisions—concretizing economic democracy rather than leaving it
+#   as abstraction.
+
+Operational guidelines
+1) Facilitation and deliberation: Pair the algorithm with assemblies and accessible materials so participants understand trade-offs.
+2) Transparency: Publish inputs, weights, constraints, and intermediate scores; enable appeals and revisions across rounds.
+3) Equity measures: Maintain equity weights and share thresholds; periodically re-estimate to avoid static or tokenistic approaches.
+4) Auditable data: Store per-project impact metadata (geography, beneficiaries) to validate fairness constraints.
+5) Hybrid optimization: For larger portfolios, replace the greedy selection with mixed-integer programming to optimize under the same constraints while keeping all parameters public.
+6) Iteration: Run multi-round cycles: initial scoring, draft allocation, community feedback, final allocation. Iteration is where PB’s educational and transformative benefits deepen.
+
+Possible extensions
+- Deliberation-informed priors: Incorporate community-authored priorities as additional score terms with public justifications.
+- Participatory impact scoring: Allow participants to estimate impact and confidence intervals; fund pilots and iterate based on measured outcomes.
+- Robustness to capture: Enforce participation diversity thresholds and detect suspicious ballot patterns; add rate-limits and identity verification consistent with privacy.
+- Long-term stewardship: Budget not only for capital projects but maintenance; allocate a share to community-managed institutions to deepen democratic control over time.
+
+This framework provides a practical, inspectable foundation for participatory budgeting. It centers community agency, encodes fairness, and offers a pathway for expanding democratic participation to reshape how resources are governed and, ultimately, how the economy relates to the public it is supposed to serve.

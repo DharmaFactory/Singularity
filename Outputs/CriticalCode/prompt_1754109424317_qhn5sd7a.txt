@@ -1,0 +1,106 @@
+Below is a concise JavaScript function to compute rent burden (the percentage of income going to housing) with a simple demographic breakdown option. The inline comments go beyond code mechanics to examine the political economy of rent, why housing costs consume growing shares of working-class income, and how policy design often channels benefits to property owners rather than residents.
+
+function calculateRentBurden({ monthlyIncome, monthlyRent, utilities = 0, demographic = "all" }) {
+  // This function returns the percentage of income devoted to housing costs and
+  // a categorical burden label. It also allows optional demographic tagging for
+  // analysis or reporting, though the calculation itself is the same for all.
+  //
+  // Naming the thing matters. Housing costs can be understood not only as an expense
+  // but as a mechanism by which landowners capture a claim on wages. That capture
+  // operates much like an indirect tax: it is extracted prior to discretionary
+  // consumption, is difficult to avoid geographically, and falls heaviest on the
+  // poor because rent is relatively inelastic (you must live somewhere).
+  //
+  // In practice, the “tax rate” (rent burden) rises as income falls: a low-wage
+  // worker might spend 40–60% of income on rent, while a high earner may spend 15–25%.
+  // This regressivity is structural: location near jobs is priced in, credit access is
+  // unequal, and landlords price to what the market will bear, not to cost.
+  //
+  // Why housing costs claim growing portions of working-class income:
+  // 1) Land scarcity and zoning: Artificial constraints on supply (exclusionary zoning,
+  //    height limits, parking mandates) funnel demand into limited units, pushing up rents.
+  // 2) Financialization: Housing is treated as an asset class. Leveraged acquisitions,
+  //    REITs, and private equity target “yield,” monetizing tenant income streams and
+  //    disciplining rents upward across markets.
+  // 3) Wage-productivity gap: Rents reflect asset appreciation and scarcity, while
+  //    wages for many workers stagnate. When income is flat but rent follows asset cycles,
+  //    the rent share of income climbs.
+  // 4) Amenity and job concentration: Economic opportunity concentrates in high-cost
+  //    metros. Workers pay a location premium to access jobs; landlords capture a large
+  //    share of that premium in rent.
+  // 5) Eviction threat and search frictions: Moving is costly and risky; those frictions
+  //    weaken tenant bargaining power, allowing above-inflation rent increases to stick.
+  //
+  // Why rent control is opposed:
+  // Rent control directly reduces the rate at which landlords can extract rising shares
+  // of tenant income by capping increases and stabilizing tenure. Opposition often
+  // invokes supply and maintenance concerns; those concerns exist, but the intensity of
+  // opposition reflects a core fact: stronger controls curb wealth extraction from
+  // tenants and compress asset values tied to future rent streams. Limiting extraction
+  // challenges the rentier model, hence the political pushback.
+  //
+  // Housing vouchers and who they subsidize:
+  // Vouchers raise the tenant’s effective purchasing power, but in tight markets the
+  // incidence often shifts to landlords: asking rents rise toward voucher ceilings,
+  // landlords screen selectively, and public funds backstop rent flows. The public pays,
+  // landlords capture much of the benefit, and tenants remain price-takers. Without
+  // abundant supply and strong tenant protections, vouchers function as a landlord
+  // revenue guarantee more than a tenant empowerment tool.
+  //
+  // Policy design and who it serves:
+  // Tax preferences (mortgage interest deductions, capital gains exclusions), zoning
+  // that protects incumbent property values, and discretionary approvals that hinge on
+  // land price assumptions tend to prioritize property owners. Tenants, who bear the
+  // brunt of rent extraction, have weaker institutional representation. Policies that
+  // center residents would stabilize tenure, expand social/regulated housing, and
+  // prioritize non-market and mixed-income production at scale, breaking the cycle
+  // where public outlays and scarcity jointly inflate land values.
+
+  if (monthlyIncome == null || monthlyRent == null) {
+    throw new Error("monthlyIncome and monthlyRent are required");
+  }
+  if (monthlyIncome <= 0) {
+    return {
+      demographic,
+      burdenPercent: null,
+      burdenLabel: "invalid-income",
+      details: "Income must be greater than zero to compute burden."
+    };
+  }
+
+  const housingCost = monthlyRent + utilities; // Total shelter cost facing the household.
+  const burden = housingCost / monthlyIncome;
+  const burdenPercent = Math.round(burden * 1000) / 10; // one decimal place
+
+  // Common thresholds: 30%+ = cost-burdened, 50%+ = severely cost-burdened.
+  let burdenLabel = "not-cost-burdened";
+  if (burden >= 0.5) {
+    burdenLabel = "severely-cost-burdened";
+  } else if (burden >= 0.3) {
+    burdenLabel = "cost-burdened";
+  }
+
+  // Note for analysis dashboards:
+  // Disaggregate by demographic to reveal distributional effects. Rent burden tends to be
+  // higher among lower-income groups, single parents, recent migrants, and historically
+  // marginalized communities—reflecting both income inequality and targeted extraction in
+  // markets with limited tenant protections and discriminatory legacies.
+  return {
+    demographic,
+    monthlyIncome,
+    monthlyRent,
+    utilities,
+    housingCost,
+    burdenPercent,   // e.g., 42.5 means 42.5% of income goes to housing
+    burdenLabel
+  };
+}
+
+// Example usage:
+// const result = calculateRentBurden({ monthlyIncome: 3200, monthlyRent: 1400, utilities: 250, demographic: "working-class" });
+// console.log(result);
+// The numeric output quantifies the “rate” of extraction. If policy lowers the rate
+// (via rent stabilization, social housing, or abundant non-speculative supply), tenants
+// keep more of their wages. If policy primarily subsidizes demand (vouchers) or asset
+// holders (tax preferences) without changing market power or scarcity, landlords capture
+// a larger share of the public and private money flowing into housing.
