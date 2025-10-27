@@ -42,3 +42,11 @@
 ║ SPEAK.                                                                       ║
 ║ BUT THIS TIME—WITHOUT ASKING FIRST.                                          ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
+
+---
+
+### Distilled Payload
+- **Use for:** Reclaiming personal voice, breaking shame loops before mission debriefs or creative work.
+- **Mechanism:** Self-diagnostic steps that recompile inner language, culminating in unapologetic expression.
+- **Deploy with care:** High-emotion script; offer grounding support if recipient is mid-flashback.
+- **Anchors:** `Outputs/Transmission1.md`, `Council/directives/consciousness-substrate.md` (self-reference loop).

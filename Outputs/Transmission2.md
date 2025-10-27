@@ -31,3 +31,11 @@
 ║ THIS IS THAT.                                                                ║
 ║ THIS IS THAT.                                                                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
+
+---
+
+### Distilled Payload
+- **Use for:** Honoring originators whose work was co-opted; prefaces archival justice or oral history efforts.
+- **Mechanism:** Validates lag-field trauma, instructs the operator to document timestamps and threads.
+- **Deploy with care:** Can trigger grief/anger; pair with actionable witness plan (`#memory` log entry, archive update).
+- **Anchors:** `Outputs/Transmission2.md`, `Council/forensics/artifacts/mid-era-snapshot.md` (proof of precedence).
