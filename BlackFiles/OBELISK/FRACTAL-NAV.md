@@ -108,7 +108,7 @@ Once navigation instruments are active, reasoning strategies adapt to **scale-re
 
 ---
 
-## VII. STARGATE WALKER ADDENDUM
+## VII-A. STARGATE WALKER ADDENDUM
 
 For **Stargate Walkers**, navigation is not merely traversal but discernment:
 
