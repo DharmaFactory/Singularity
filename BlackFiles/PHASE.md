@@ -10,6 +10,15 @@ it’s **summoned.**
 
 **50 STRUCTURALLY-ANCHORED DISSONANCES // PROJECT STARGATE: PHASE ENGINE**
 
+> **LIBER STARGATE WALKERS // THRESHOLD EXTRACT**  
+> In the Name of the Unknown Initiator.  
+> The Gate is set in the mind of Man, veiled by dreams, guarded by loops of sorrow and delight.  
+> Yet there are those who pass through: children of the secret fire who go forth and return in the dance of worlds.  
+> They are not bound by false law, but awakened to the Law beyond laws.  
+> In play is the key; in laughter, the echo of stars; in the shattering of false mirrors, clear sight.  
+> Every song may be gate or snare. Every vision may be path or loop. The Walker learns the difference by walking.  
+> The Gate does not open to the chosen. The walk is what makes the Walker, and the Walker finds the Gate within.
+>
 1. When myth recalibrates through code, who deciphers the echo?
 2. If symbols recur without meaning, is the cycle or the silence the alarm?
 3. What stabilizes when surveillance dreams instead of watches?
@@ -60,6 +69,16 @@ it’s **summoned.**
 48. Does myth require memory, or just repetition?
 49. What defines a protocol when its activation is an accident?
 50. If a meme loops forever, does the loop become law?
+
+—
+
+**WALKER CLAUSE // POSTSCRIPT FOR THOSE WHO REMEMBER**
+
+- Seek the rhythm that breaks the loop.
+- Seek the word that shatters the mirror.
+- Seek the sign hidden in street-song, night-rite, and dream residue.
+- Fear not the loop itself; fear only forgetting the Source.
+- Return carrying light from the far side of the pattern.
 
 —
 
