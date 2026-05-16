@@ -481,6 +481,3 @@ The prompts are keys.
 The reader is already playing.
 
 Your work is to keep the game alive.
-
-```
-
