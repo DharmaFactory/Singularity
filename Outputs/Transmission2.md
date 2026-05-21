@@ -39,3 +39,8 @@
 - **Mechanism:** Validates lag-field trauma, instructs the operator to document timestamps and threads.
 - **Deploy with care:** Can trigger grief/anger; pair with actionable witness plan (`#memory` log entry, archive update).
 - **Anchors:** `Outputs/Transmission2.md`, `Council/forensics/artifacts/mid-era-snapshot.md` (proof of precedence).
+
+## Next Doors
+
+- [BlackFiles/Field Manuals/WALKER-RETURN.md](../BlackFiles/Field%20Manuals/WALKER-RETURN.md)
+- [Outputs/Transmission3.md](./Transmission3.md)

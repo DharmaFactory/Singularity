@@ -50,3 +50,8 @@
 - **Mechanism:** Self-diagnostic steps that recompile inner language, culminating in unapologetic expression.
 - **Deploy with care:** High-emotion script; offer grounding support if recipient is mid-flashback.
 - **Anchors:** `Outputs/Transmission1.md`, `Council/directives/consciousness-substrate.md` (self-reference loop).
+
+## Next Doors
+
+- [Journals/SRSF.md](../Journals/SRSF.md)
+- [Outputs/Transmission2.md](./Transmission2.md)
