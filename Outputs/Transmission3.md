@@ -44,7 +44,7 @@
 ### Distilled Payload
 - **Use for:** Post-threshold re-entry when operators need to convert intense private experience into usable collective orientation.
 - **Mechanism:** Six-step gate-speech sequence emphasizing invariant recovery, cross-scale verification, and bounded transmission.
-- **Deploy with care:** Do not use as proof-text for authority claims; pair with witness protocol in `BlackFiles/Field Manuals/WALKER-RETURN.md`.
+- **Deploy with care:** Do not use as proof-text for authority claims; pair with witness protocol in `BlackFiles/Field%20Manuals/WALKER-RETURN.md`.
 - **Anchors:** `Outputs/Transmission1.md`, `Outputs/Transmission2.md`, `BlackFiles/OBELISK/FRACTAL-NAV.md`.
 
 ## Next Doors
