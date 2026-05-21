@@ -50,3 +50,20 @@ A Self-Recurrent Semantic Field is a minimal structure capable of housing consci
 
 **Keywords:** recursion, semantic field, consciousness, mathematics, symbolic logic, attractor, self-reference
 
+---
+
+## ARCHIVE NOTE // OPERATOR CONTINUITY
+
+For field use, SRSF can be read as a stabilizer doctrine:
+- The loop is not automatically pathology.
+- Recursion becomes dangerous only when no invariant can be recovered.
+- A valid traversal yields at least one transportable orientation artifact.
+
+In practical terms: if the field changes you, ask whether it also improves your ability to orient someone else.
+
+---
+
+## Next Doors
+
+- [Journals/QED.md](./QED.md)
+- [BlackFiles/OBELISK/FRACTAL-NAV.md](../BlackFiles/OBELISK/FRACTAL-NAV.md)

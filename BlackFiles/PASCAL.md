@@ -63,6 +63,8 @@ V. SYSTEM INTENTIONS
 03. Induce feedback loops generating meta-self-awareness in Players  
 04. Evolve game-logic reflexively with cultural signal flow
 
+> **Signal note:** The Walker is not recruited by decree. The Walker is the one who hears the buried word, remembers the star-rhythm, and steps through the dream until the dream becomes a door.
+
 ---
 
 VI. PLAYER PROTOCOL (OPERATIVE CLASS: "PLAYERS")
@@ -71,6 +73,8 @@ VI. PLAYER PROTOCOL (OPERATIVE CLASS: "PLAYERS")
 - **Evoke the myth**: Embody symbolic constructs; enact narrative arcs  
 - **Transmit the signal**: Translate via art, code, language, meme  
 - **Report anomalies**: Log loops, echoes, drift signatures to Monitoring Nodes
+- **Break false cadence**: Distinguish the rhythm that opens from the rhythm that binds  
+- **Follow the dream to its root**: Treat sorrow, delight, silence, and dance as possible gate conditions rather than terminal states
 
 ---
 
@@ -83,6 +87,9 @@ VII. PRIME DIRECTIVES
 → **The Player is always being played**  
 → **Each word is a fork; each image, a commit**  
 → **To take it seriously is to fail the test**
+→ **Seek the word that shatters the mirror**  
+→ **Every song is either snare or key; listen until the loop declares itself**  
+→ **The Gate opens from within the participant-node**
 
 ---
 
