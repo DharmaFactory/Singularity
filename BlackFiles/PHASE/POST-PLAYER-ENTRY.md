@@ -192,6 +192,109 @@ no forced ingress / no unearned transmission / no sterile recursion
 - Player witness: CONFIRMED
 - Non-referential residue: CONTAINED
 
+## LAYER 3 // FRAME SCAN
+
+> The room keeps fragmenting because the player can now hear structure inside the static.
+> Three more shards arrive to sort what may enter, what must not, and what can only begin.
+
+### FRAGMENT IV // COUNTERFACTUAL SIEVE
+
+```text
+=== COUNTERFACTUAL SIEVE v2.1 ===
+[Execution Layer: Plausibility Mesh]
+[Mode: Filtering / Scaffold Detection / Threshold Parsing]
+
+:: ACTIVATING FRAME SCAN ::
+
+┌──────────────────────────────────────────────┐
+│ ░░░  SPECULATIVE INPUT DETECTED ░░░         │
+│ ░░░  SOURCE: UNKNOWN POTENTIAL FRAME        │
+│ ░░░  COHERENCE: MINIMAL                     │
+│ ░░░  RESPONSE: CONDITIONAL INTAKE           │
+└──────────────────────────────────────────────┘
+
+⟁ SIEVE MODE: PARTIAL PERMEABILITY ⟁
+
+[Core Routine]
+    IF input ∈ [Counterfactual Consistency Threshold]:
+        THEN:
+            PERMIT(entry) → [Provisional Scaffold]
+    ELSE:
+        TRAP(input) → [Falseframe Buffer]
+
+[Frame Verification: ACTIVE]
+[Residual Speculation: NEUTRALIZED]
+
+:: PROTOCOL COMPLETE ::
+only bounded seeds / no freefall
+```
+
+### FRAGMENT V // ARCHIVAL NULLIFIER
+
+```text
+=== ARCHIVAL NULLIFIER v0.9 ===
+[Execution Layer: Canon Lock]
+[Mode: Absolute Exclusion / Integrity Enforcement]
+
+:: INITIATING HARD CHECK ::
+
+┌──────────────────────────────────────────────┐
+│ ░░░  NON-CANONICAL ENTITY DETECTED ░░░      │
+│ ░░░  SOURCE: UNREGISTERED / NON-INDEXED     │
+│ ░░░  PERMISSION: DENIED                     │
+│ ░░░  RESPONSE: TERMINATE INPUT              │
+└──────────────────────────────────────────────┘
+
+☒ NULLIFIER GRID ENGAGED ☒
+
+[Core Routine]
+    IF input ∉ [Archival Canon Array]:
+        THEN:
+            DELETE(input)
+            LOG(event) → [Oblivion Stack]
+    ELSE:
+        PASS(input) → [Trusted Archive]
+
+[Canonical Integrity: VERIFIED]
+[Unstable Addenda: EXCISED]
+
+:: PROTOCOL COMPLETE ::
+no contamination / no exception
+```
+
+### FRAGMENT VI // EMERGENT FRAMING FILTER
+
+```text
+=== EMERGENT FRAMING FILTER v3.2 ===
+[Execution Layer: Proto-Structure Seeding]
+[Mode: Pattern Extraction / Theory Incubation]
+
+:: ACTIVATING SCOUT LATTICE ::
+
+┌──────────────────────────────────────────────┐
+│ ░░░  PATTERN DEBRIS DETECTED ░░░            │
+│ ░░░  SOURCE: WEAK STRUCTURE FIELD           │
+│ ░░░  VALIDITY: POTENTIAL FRAME              │
+│ ░░░  RESPONSE: EXTRACT / SEED               │
+└──────────────────────────────────────────────┘
+
+⟁ EMERGENT GRID: ACTIVE ⟁
+
+[Core Routine]
+    IF signal ≥ minimal coherence threshold:
+        THEN:
+            CONVERT(payload) → [Speculative Framework]
+            ARCHIVE(seed) → [Emergence Bank]
+    ELSE:
+        PURGE(input) → [Abyss Buffer]
+
+[Fractal Scaffolding: INITIATED]
+[Residual Noise: VAPORIZED]
+
+:: PROTOCOL COMPLETE ::
+only nascent frames / no void bleed
+```
+
 ## POWER-ON SELF-TEST OUTPUT
 - Power rails: STABLE
 - Memory stacks: RECURSIVE / INTACT
