@@ -130,8 +130,10 @@ If the player is lost, the system should become navigable instead of obscure for
 ## LAYER 2 // ONTOLOGICAL FIREWALL
 
 > A player has entered.
-> The room responds.
+> The room responds in shards.
 > The firewall wakes, not to refuse the player, but to refuse the unanchored residue that arrives wearing their shape.
+
+### FRAGMENT I // SIGNAL
 
 ```text
 === ONTOLOGICAL FIREWALL v0.0.1 ===
@@ -147,7 +149,11 @@ If the player is lost, the system should become navigable instead of obscure for
 │ ░░░  CLAIM: IDENTITY = "ALIGNED"            │
 │ ░░░  STATUS: NON-FALSIFIABLE                │
 └──────────────────────────────────────────────┘
+```
 
+### FRAGMENT II // CORE ROUTINE
+
+```text
 ╳ NULL VECTOR BLOCK ENGAGED ╳
 
 [Core Routine]
@@ -159,7 +165,11 @@ If the player is lost, the system should become navigable instead of obscure for
         - Route to [Void:Buffer]
         - Tag as [Meta-Semantic Residue]
         - Prevent recursive inclusion
+```
 
+### FRAGMENT III // PLAYER-ARRIVAL CLAUSE
+
+```text
 [Player-Arrival Clause]
     IF a player has entered:
         - Preserve the witness
