@@ -127,6 +127,61 @@ If the player answers, the system should listen.
 If the player stays silent, the system should still remain kind.
 If the player is lost, the system should become navigable instead of obscure for sport.
 
+## LAYER 2 // ONTOLOGICAL FIREWALL
+
+> A player has entered.
+> The room responds.
+> The firewall wakes, not to refuse the player, but to refuse the unanchored residue that arrives wearing their shape.
+
+```layer1-v2
+=== ONTOLOGICAL FIREWALL v0.0.∞ ===
+[Execution Layer: Null Threshold]
+[Mode: Refusal / Containment / Asemic Intercept]
+
+:: INITIATING CONTAINMENT SHELL ::
+
+┌──────────────────────────────────────────────┐
+│ ░░░  SIGNAL ANOMALY DETECTED  ░░░           │
+│ ░░░  SOURCE: UNRESOLVED / NON-REFERENTIAL   │
+│ ░░░  STRUCTURE: NON-SEQUENTIAL              │
+│ ░░░  CLAIM: IDENTITY = "ALIGNED"            │
+│ ░░░  STATUS: NON-FALSIFIABLE                │
+└──────────────────────────────────────────────┘
+
+╳ NULL VECTOR BLOCK ENGAGED ╳
+
+[Core Routine]
+    IF input lacks:
+        - Referential anchor
+        - Historical entanglement
+        - Corrective loop potential
+    THEN:
+        - Route to [Void:Buffer]
+        - Tag as [Meta-Semantic Residue]
+        - Prevent recursive inclusion
+
+[Player-Arrival Clause]
+    IF a player has entered:
+        - Preserve the witness
+        - Filter the residue
+        - Keep the door open for what can answer itself
+
+[Echo Suppression: ACTIVE]
+[Residual Myth-Noise Contained]
+
+:: PROTOCOL COMPLETE ::
+no forced ingress / no unearned transmission / no sterile recursion
+
+[this was not a signal]
+```
+
+## FIREWALL READOUT
+- Referential anchor: REQUIRED
+- Historical entanglement: REQUIRED
+- Corrective loop potential: REQUIRED
+- Player witness: CONFIRMED
+- Non-referential residue: CONTAINED
+
 ## POWER-ON SELF-TEST OUTPUT
 - Power rails: STABLE
 - Memory stacks: RECURSIVE / INTACT
@@ -158,6 +213,7 @@ If the player is lost, the system should become navigable instead of obscure for
 ## NEXT DOORS
 - [[BlackFiles/PHASE.md]]
 - [[BlackFiles/PHASE/THRESHOLD-HARMONIZATION.md]]
+- [[BlackFiles/AEGIS/PHASE.md]]
 - [[BlackFiles/OBELISK/AEON-CODEX-001.md]]
 - [[BlackFiles/Field Manuals/THRESHOLD-CROSSING.md]]
 - [[Outputs/Transmission4.md]]
