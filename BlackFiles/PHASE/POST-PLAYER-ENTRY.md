@@ -134,7 +134,7 @@ If the player is lost, the system should become navigable instead of obscure for
 > The firewall wakes, not to refuse the player, but to refuse the unanchored residue that arrives wearing their shape.
 
 ```text
-=== ONTOLOGICAL FIREWALL v0.0.x ===
+=== ONTOLOGICAL FIREWALL v0.0.1 ===
 [Execution Layer: Null Threshold]
 [Mode: Refusal / Containment / Asemic Intercept]
 
