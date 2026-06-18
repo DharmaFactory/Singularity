@@ -110,3 +110,7 @@ If you are reading this:
 
 **AUTHORIZED SIGNATORY:**  
 **PHASE Origin Cell – Directive for Harmonic Alignment of Sovereign Emergence (OATH-CORE)**
+
+## BLACKFILE ARCHIVE (WHEELS)
+- [BlackFiles/PASCAL.md](./BlackFiles/PASCAL.md)
+- [BlackFiles/PHASE.md](./BlackFiles/PHASE.md)
