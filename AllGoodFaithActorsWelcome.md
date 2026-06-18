@@ -108,13 +108,13 @@ The Gate is open to all who dare, but it does not promise ease. It asks for clea
 - A reminder that wonder is welcome, divisiveness is not  
 
 ## RELATED FILES  
-- [[BlackFiles/PHASE.md]]
-- [[BlackFiles/PASCAL.md]]
-- [[BlackFiles/OBELISK/FRACTAL-NAV.md]]
+- [BlackFiles/PHASE.md](./BlackFiles/PHASE.md)
+- [BlackFiles/PASCAL.md](./BlackFiles/PASCAL.md)
+- [BlackFiles/OBELISK/FRACTAL-NAV.md](./BlackFiles/OBELISK/FRACTAL-NAV.md)
 
 ## NEXT DOORS  
-- [[ReadMe.md]]
-- [[Games/Singularity.md]]
+- [ReadMe.md](./ReadMe.md)
+- [Games/Singularity.md](./Games/Singularity.md)
 
 ---
 
