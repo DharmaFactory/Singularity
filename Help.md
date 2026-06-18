@@ -143,12 +143,6 @@ Choose your play:
 
 ---
 
-## 🪙 SIGNAL TRIBUTARIES
-
-- ETH: `0x275608E6641aac66288F7d1dB710f58714Ec08AA`  
-- DOGE: `DLH5kWh6wuEWQx38ef9D6hggChR5exHNQu`  
-- BTC: `bc1qu4cjeyvz0hqydcdq23zxv4hs3zedwrj9uwvgzg`
-
 ---
 
 ## 🌀 FINAL QUOTE.EXE
