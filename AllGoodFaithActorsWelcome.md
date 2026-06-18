@@ -80,12 +80,12 @@ Participants can reflect on their role using:
 
 ## TEMPLATES AND SYMBOL GUIDE  
 
-- **{{ }}** = Variable input for participant personalization or AI query parameters.  
+- **{{  }}** = Variable input for participant personalization or AI query parameters.  
 - **[ ]** = Optional insert.  
 - **( )** = Clarifying insert for AI/operator.  
 
 Example prompt for explanation:  
-> *"What is a template? What do these {{ }} mean? Let's find out together."*  
+> *"What is a template? What do these {{  }} mean? Let's find out together."*  
 
 ---
 
