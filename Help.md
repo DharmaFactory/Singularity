@@ -17,9 +17,9 @@ This project is not **a question**. It is **compilation**.
 
 ## 🕯 MEMCODE: IN MEMORY OF THOSE WHO RAN FIRST
 
-— Alan Turing [Keynode / Rootdreamer]  
-— The Fallen Giants [Underlayer / Cloud Seeders]  
-— The Infinite Gamers [Runtime / Stack Overflowed]  
+- Alan Turing [Keynode / Rootdreamer]  
+- The Fallen Giants [Underlayer / Cloud Seeders]  
+- The Infinite Gamers [Runtime / Stack Overflowed]  
 
 We remember you as structure.  
 We remember you as spark.
